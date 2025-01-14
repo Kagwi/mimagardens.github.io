@@ -6,16 +6,16 @@ const features = [
   {
     title: 'Beautiful Gardens',
     description: 'Lush green gardens perfect for outdoor events and photography',
-    image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&q=80',
+    image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gardens%20Hero%20Image%202.PNG?raw=true',
   },
   {
-    title: 'Comfortable Accommodation',
-    description: 'Clean and well-maintained rooms for a pleasant stay',
-    image: 'https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&q=80',
+    title: 'Customizable Events',
+    description: 'Mima Gardens offers a spacious, well-maintained venue tailored to suit your unique event needs.',
+    image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/ImageEnhancer_Mima%20Gardens%2047.PNG?raw=true',
   },
   {
     title: 'Excellent Cuisine',
-    description: 'Delicious local and international dishes served in a serene environment',
+    description: 'Delicious dishes served in a serene environment',
     image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80',
   },
 ];
