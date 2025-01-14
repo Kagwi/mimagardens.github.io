@@ -52,7 +52,7 @@ const HeroSection = () => {
                     transition={{ duration: 0.8, delay: 0.2 }}
                     className="text-xl md:text-2xl mb-8"
                   >
-                    Your perfect venue for events and accommodation
+                    Your perfect venue for unforgettable events and lasting memories.
                   </motion.p>
                   <motion.button
                     initial={{ opacity: 0, y: 20 }}
