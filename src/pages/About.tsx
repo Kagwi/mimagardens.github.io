@@ -20,18 +20,18 @@ const About = () => {
               <p className="text-lg text-gray-600 mb-6">
                 Mima Gardens is a versatile events and accommodation venue located in Maragua, 
                 Murang'a County, Kenya. We are renowned for our lush green gardens, making us 
-                a popular destination for social and corporate events, including weddings and 
-                family gatherings.
+                a popular destination for social and corporate events, including weddings, 
+                family gatherings, baby showers and more.
               </p>
               <p className="text-lg text-gray-600">
-                Our venue offers dining options with both local and international cuisine served 
-                in a serene environment. We provide clean and well-maintained accommodations, 
-                including cubicles that are praised for their neat interiors.
+                Our venue offers dining options with a variety of delicacies served 
+                in a serene environment. We provide exceptional services to make your experience
+                one for the books.
               </p>
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1566073771259-6a8506099945"
+                src="https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Edited%202.PNG?raw=true"
                 alt="Mima Gardens"
                 className="rounded-lg shadow-xl"
               />
