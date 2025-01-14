@@ -52,8 +52,8 @@ const About = () => {
                 image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3',
               },
               {
-                title: 'Accommodation',
-                description: 'Comfortable rooms with modern amenities',
+                title: 'Poolside Escape',
+                description: 'Mima Gardens offers a pristine swimming pool perfect for relaxation, fitness, and leisure.',
                 image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa',
               },
               {
