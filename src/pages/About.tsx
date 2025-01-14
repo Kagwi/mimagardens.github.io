@@ -49,12 +49,12 @@ const About = () => {
               {
                 title: 'Event Spaces',
                 description: 'Versatile indoor and outdoor spaces for all types of events',
-                image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3',
+                image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gardens%20Hero%20Image%202.PNG?raw=true',
               },
               {
                 title: 'Poolside Escape',
                 description: 'Mima Gardens offers a pristine swimming pool perfect for relaxation, fitness, and leisure.',
-                image: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa',
+                image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Edited%204(c).PNG?raw=true',
               },
               {
                 title: 'Restaurant',
