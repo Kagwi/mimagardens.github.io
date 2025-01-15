@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const images = [
   {
-    url: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3',
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gardens%2033.PNG?raw=true',
     category: 'Gardens',
   },
   {
