@@ -7,7 +7,7 @@ const images = [
     category: 'Gardens',
   },
   {
-    url: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3',
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gardens%2028.PNG?raw=true',
     category: 'Events',
   },
   {
