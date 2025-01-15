@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 const heroImages = [
-  'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gardens%2033.PNG?raw=true',
+  'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gardens%2033.PNG?raw=true?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80',
   'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gardens%20Hero%20Image%201.PNG?raw=true',
   'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima_Gardens%20Hero%20Image%203.PNG?raw=true',
 ];
