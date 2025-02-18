@@ -3,28 +3,40 @@ import { motion } from 'framer-motion';
 
 const images = [
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gardens%2033.PNG?raw=true',
-    category: 'Gardens',
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0489.jpg?raw=true',
+    category: 'Sips & Stories',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gardens%2028.PNG?raw=true',
-    category: 'Events',
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0492.jpg?raw=true',
+    category: 'Coffee Dates',
   },
   {
-    url: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4',
-    category: 'Accommodation',
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0433.jpg?raw=true',
+    category: 'Outdoor Relaxation with Family',
   },
   {
-    url: 'https://images.unsplash.com/photo-1533659828870-95ee305cee3e',
-    category: 'Gardens',
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0438.jpg?raw=true',
+    category: 'Beautiful Gardens',
   },
   {
-    url: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed',
-    category: 'Events',
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0657.jpg?raw=true',
+    category: 'Corporate Event Spaces',
   },
   {
-    url: 'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa',
-    category: 'Accommodation',
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0669.jpg?raw=true',
+    category: 'Swimming Pool Escape',
+  },
+  {
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0686.jpg?raw=true',
+    category: 'Samburu Chillout Zone',
+  },
+  {
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0703.jpg?raw=true',
+    category: 'Samburu Lounge',
+  },
+  {
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0696.jpg?raw=true',
+    category: 'All-Season Gazebos',
   },
 ];
 
