@@ -5,15 +5,15 @@ const menuSections = [
   {
     name: "Food",
     items: [
-      { name: "Nyama Choma", price: "KES 800", image: "https://images.unsplash.com/photo-1544025162-d76694265947" },
-      { name: "Pilau", price: "KES 400", image: "https://images.unsplash.com/photo-1596797038530-2c107229654b" },
+      { name: "Nyama Choma", image: "https://images.unsplash.com/photo-1544025162-d76694265947" },
+      { name: "Pilau", image: "https://images.unsplash.com/photo-1596797038530-2c107229654b" },
     ]
   },
   {
     name: "Desserts",
     items: [
-      { name: "Chocolate Cake", price: "KES 500", image: "https://images.unsplash.com/photo-1551024601-bec78aea704b" },
-      { name: "Fruit Salad", price: "KES 350", image: "https://images.unsplash.com/photo-1573821663912-28c58b55b3ff" },
+      { name: "Ice Cream", image: "https://images.unsplash.com/photo-1551024601-bec78aea704b" },
+      { name: "Fruit Salad", image: "https://images.unsplash.com/photo-1573821663912-28c58b55b3ff" },
     ]
   },
   {
@@ -22,15 +22,15 @@ const menuSections = [
       {
         name: "Alcoholic",
         items: [
-          { name: "Red Wine", price: "KES 1500", image: "https://images.unsplash.com/photo-1547592180-89c60b4e3315" },
-          { name: "Whiskey", price: "KES 2000", image: "https://images.unsplash.com/photo-1613472868331-62531060a07f" },
+          { name: "Red Wine", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0489.jpg?raw=true" },
+          { name: "Whiskey", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0498.jpg?raw=true" },
         ]
       },
       {
         name: "Non-Alcoholic",
         items: [
-          { name: "Fresh Juice", price: "KES 300", image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445" },
-          { name: "Iced Coffee", price: "KES 450", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93" },
+          { name: "Fresh Juice", image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445" },
+          { name: "Milkshake", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93" },
         ]
       }
     ]
