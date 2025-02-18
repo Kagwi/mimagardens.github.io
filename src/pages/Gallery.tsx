@@ -17,6 +17,9 @@ const Gallery = () => {
             <p className="text-lg text-gray-600">
               Experience the Beauty and Elegance of Mima Gardens through our Photo Gallery
             </p>
+            <p className="text-lg text-gray-600">
+              Begin your journey through Mima’s living canvas
+            </p>
           </motion.div>
           <ImageGallery />
         </div>
