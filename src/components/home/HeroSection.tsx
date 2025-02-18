@@ -25,18 +25,18 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="relative h-screen">
+    <div className="relative w-full h-screen">
       <Swiper
         modules={[Navigation, Autoplay]}
         navigation
         autoplay={{ delay: 5000 }}
         loop
-        className="h-full"
+        className="w-full h-full"
       >
         {heroImages.map((image, index) => (
           <SwiperSlide key={index}>
             <div
-              className="h-full bg-cover bg-center"
+              className="w-full h-full bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: `url(${image})` }}
             >
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
