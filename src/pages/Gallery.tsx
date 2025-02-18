@@ -15,7 +15,7 @@ const Gallery = () => {
           >
             <h1 className="text-4xl font-bold mb-4">Gallery</h1>
             <p className="text-lg text-gray-600">
-              "Experience the beauty and elegance of Mima Gardens through our photo gallery"
+              Experience the Beauty and Elegance of Mima Gardens through our Photo Gallery
             </p>
           </motion.div>
           <ImageGallery />
