@@ -31,12 +31,12 @@ const About = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0718.jpg?raw=true"
+                src="https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Edited%202.PNG?raw=true"
                 alt="Mima Gardens 1"
                 className="w-full h-64 rounded-lg shadow-xl object-cover"
               />
               <img
-                src="https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0713.jpg?raw=true"
+                src="https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Edited%204(c).PNG?raw=true"
                 alt="Mima Gardens 2"
                 className="w-full h-64 rounded-lg shadow-xl object-cover"
               />
@@ -58,10 +58,6 @@ const About = () => {
               title: 'Poolside Escape',
               description: 'Mima Gardens offers a pristine swimming pool perfect for relaxation, fitness, and leisure.',
               image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Edited%204(c).PNG?raw=true',
-            }, {
-              title: 'Restaurant',
-              description: 'Fine dining with local and international cuisine',
-              image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0',
             }].map((facility, index) => (
               <motion.div
                 key={index}
@@ -85,8 +81,52 @@ const About = () => {
         </div>
       </section>
 
+      {/* Local Cuisine Section */}
+      <section className="py-16 bg-white">
+        <h2 className="text-3xl font-bold text-center mb-12">Local Cuisine</h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          {[...Array(2)].map((_, i) => (
+            <img key={i} src="local-cuisine-image-url" alt="Local Cuisine" className="w-full h-48 object-cover rounded-lg shadow-lg" />
+          ))}
+        </div>
+      </section>
+
+      {/* Beverages Section */}
+      <section className="py-16 bg-gray-50">
+        <h2 className="text-3xl font-bold text-center mb-12">Beverages</h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          {[...Array(4)].map((_, i) => (
+            <img key={i} src="beverage-image-url" alt="Beverage" className="w-full h-48 object-cover rounded-lg shadow-lg" />
+          ))}
+        </div>
+      </section>
+
+      {/* Dessert Section */}
+      <section className="py-16 bg-white">
+        <h2 className="text-3xl font-bold text-center mb-12">Desserts</h2>
+        <div className="grid grid-cols-2 gap-8">
+          {[...Array(2)].map((_, i) => (
+            <img key={i} src="dessert-image-url" alt="Dessert" className="w-full h-48 object-cover rounded-lg shadow-lg" />
+          ))}
+        </div>
+      </section>
+
+      {/* Drinks Section */}
+      <section className="py-16 bg-gray-50">
+        <h2 className="text-3xl font-bold text-center mb-12">Drinks</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+          {[...Array(6)].map((_, i) => (
+            <img key={i} src="drinks-image-url" alt="Drink" className="w-full h-48 object-cover rounded-lg shadow-lg" />
+          ))}
+        </div>
+      </section>
+
+      {/* Book Your Event Section */}
+      <section className="py-16 bg-cover bg-center" style={{ backgroundImage: "url('event-booking-bg-url')" }}>
+        <EventBooking />
+      </section>
+
       <MenuSection />
-      <EventBooking />
     </div>
   );
 };
