@@ -45,74 +45,71 @@ const About = () => {
         </div>
       </section>
 
-      {/* Facilities Section */}
+      {/* Our Menu's Sneak Peek Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Facilities</h2>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {["Event Space 1", "Event Space 2", "Poolside 1", "Poolside 2"].map((title, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.2 }}
-                className="bg-white rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
-              >
-                <img
-                  src={`https://example.com/image${index + 1}.jpg`}
-                  alt={title}
-                  className="w-full h-48 object-cover"
-                />
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Local Cuisine Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Local Cuisine</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {["Dish 1", "Dish 2", "Dish 3", "Dish 4"].map((dish, index) => (
-              <motion.div
-                key={index}
-                className="rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
-              >
-                <img src={`https://example.com/local-dish${index + 1}.jpg`} alt={dish} className="w-full h-48 object-cover" />
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Beverages, Desserts, and Drinks Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {["Beverages", "Desserts", "Drinks"].map((category, categoryIndex) => (
-            <div key={categoryIndex} className="mb-12">
-              <h2 className="text-3xl font-bold text-center mb-8">{category}</h2>
-              <div className={`grid grid-cols-2 md:grid-cols-${category === "Drinks" ? "6" : "4"} gap-8`}>
-                {[...Array(category === "Drinks" ? 6 : 4)].map((_, index) => (
-                  <motion.div
-                    key={index}
-                    className="rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
-                  >
-                    <img src={`https://example.com/${category.toLowerCase()}${index + 1}.jpg`} alt={`${category} ${index + 1}`} className="w-full h-48 object-cover" />
-                  </motion.div>
-                ))}
-              </div>
+          <h2 className="text-3xl font-bold text-center mb-12">Our Menu's Sneak Peek</h2>
+          
+          {/* Food Section */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-center mb-8">Food</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              {["Dish 1", "Dish 2", "Dish 3", "Dish 4"].map((dish, index) => (
+                <motion.div
+                  key={index}
+                  className="rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+                >
+                  <img src={`https://example.com/food${index + 1}.jpg`} alt={dish} className="w-full h-48 object-cover" />
+                </motion.div>
+              ))}
             </div>
-          ))}
-        </div>
-      </section>
+          </div>
 
-      {/* Book Your Event Section */}
-      <section className="py-16 bg-cover bg-center" style={{ backgroundImage: 'url(https://example.com/event-bg.jpg)' }}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <h2 className="text-4xl font-bold mb-6">Book Your Event</h2>
-          <p className="text-lg mb-6">Reserve your spot today for an unforgettable experience at Mima Gardens.</p>
-          <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg text-white font-semibold">Book Now</button>
+          {/* Desserts Section */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-center mb-8">Desserts</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              {["Dessert 1", "Dessert 2", "Dessert 3", "Dessert 4"].map((dessert, index) => (
+                <motion.div
+                  key={index}
+                  className="rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+                >
+                  <img src={`https://example.com/dessert${index + 1}.jpg`} alt={dessert} className="w-full h-48 object-cover" />
+                </motion.div>
+              ))}
+            </div>
+          </div>
+
+          {/* Beverages Section */}
+          <div>
+            <h3 className="text-2xl font-bold text-center mb-8">Beverages</h3>
+            
+            {/* Alcoholic Drinks */}
+            <h4 className="text-xl font-semibold text-center mb-6">Alcoholic</h4>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+              {[...Array(4)].map((_, index) => (
+                <motion.div
+                  key={index}
+                  className="rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+                >
+                  <img src={`https://example.com/alcoholic${index + 1}.jpg`} alt={`Alcoholic Drink ${index + 1}`} className="w-full h-48 object-cover" />
+                </motion.div>
+              ))}
+            </div>
+
+            {/* Non-Alcoholic Drinks */}
+            <h4 className="text-xl font-semibold text-center mb-6">Non-Alcoholic</h4>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              {[...Array(4)].map((_, index) => (
+                <motion.div
+                  key={index}
+                  className="rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+                >
+                  <img src={`https://example.com/nonalcoholic${index + 1}.jpg`} alt={`Non-Alcoholic Drink ${index + 1}`} className="w-full h-48 object-cover" />
+                </motion.div>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
