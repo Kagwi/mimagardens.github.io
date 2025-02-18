@@ -23,10 +23,24 @@ const About = () => {
                 a popular destination for social and corporate events, including weddings, 
                 family gatherings, baby showers, and more.
               </p>
-              <p className="text-lg text-gray-600">
+              <p className="text-lg text-gray-600 mb-6">
                 Our venue offers dining options with a variety of delicacies served 
                 in a serene environment. We provide exceptional services to make your experience
                 one for the books.
+              </p>
+
+              {/* Mission and Vision Section */}
+              <h2 className="text-2xl font-semibold mt-8 mb-4">Our Mission</h2>
+              <p className="text-lg text-gray-600 mb-6">
+                To provide a premier hospitality and events experience by offering a tranquil and 
+                elegant environment, exceptional service, and exquisite cuisine that create 
+                unforgettable memories for our guests.
+              </p>
+
+              <h2 className="text-2xl font-semibold mt-8 mb-4">Our Vision</h2>
+              <p className="text-lg text-gray-600">
+                To be the leading events and hospitality destination in Kenya, 
+                known for excellence, innovation, and a commitment to customer satisfaction.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
