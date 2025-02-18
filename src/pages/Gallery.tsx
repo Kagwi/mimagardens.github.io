@@ -13,9 +13,9 @@ const Gallery = () => {
             transition={{ duration: 0.8 }}
             className="text-center mb-12"
           >
-            <h1 className="text-4xl font-bold mb-4">Our Gallery</h1>
+            <h1 className="text-4xl font-bold mb-4">Gallery</h1>
             <p className="text-lg text-gray-600">
-              Explore the beauty and elegance of Mima Gardens through our photo gallery
+              "Experience the beauty and elegance of Mima Gardens through our photo gallery"
             </p>
           </motion.div>
           <ImageGallery />
