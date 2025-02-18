@@ -21,7 +21,7 @@ const About = () => {
                 Mima Gardens is a versatile events and accommodation venue located in Maragua, 
                 Murang'a County, Kenya. We are renowned for our lush green gardens, making us 
                 a popular destination for social and corporate events, including weddings, 
-                family gatherings, baby showers and more.
+                family gatherings, baby showers, and more.
               </p>
               <p className="text-lg text-gray-600">
                 Our venue offers dining options with a variety of delicacies served 
@@ -29,11 +29,16 @@ const About = () => {
                 one for the books.
               </p>
             </div>
-            <div className="relative">
+            <div className="grid grid-cols-2 gap-4">
               <img
                 src="https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Edited%202.PNG?raw=true"
-                alt="Mima Gardens"
-                className="rounded-lg shadow-xl"
+                alt="Mima Gardens 1"
+                className="w-full h-auto rounded-lg shadow-xl object-cover"
+              />
+              <img
+                src="https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Edited%204(c).PNG?raw=true"
+                alt="Mima Gardens 2"
+                className="w-full h-auto rounded-lg shadow-xl object-cover"
               />
             </div>
           </motion.div>
@@ -45,23 +50,19 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center mb-12">Our Facilities</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                title: 'Event Spaces',
-                description: 'Versatile indoor and outdoor spaces for all types of events',
-                image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gardens%20Hero%20Image%202.PNG?raw=true',
-              },
-              {
-                title: 'Poolside Escape',
-                description: 'Mima Gardens offers a pristine swimming pool perfect for relaxation, fitness, and leisure.',
-                image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Edited%204(c).PNG?raw=true',
-              },
-              {
-                title: 'Restaurant',
-                description: 'Fine dining with local and international cuisine',
-                image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0',
-              },
-            ].map((facility, index) => (
+            {[{
+              title: 'Event Spaces',
+              description: 'Versatile indoor and outdoor spaces for all types of events',
+              image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gardens%20Hero%20Image%202.PNG?raw=true',
+            }, {
+              title: 'Poolside Escape',
+              description: 'Mima Gardens offers a pristine swimming pool perfect for relaxation, fitness, and leisure.',
+              image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Edited%204(c).PNG?raw=true',
+            }, {
+              title: 'Restaurant',
+              description: 'Fine dining with local and international cuisine',
+              image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0',
+            }].map((facility, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
