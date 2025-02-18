@@ -22,7 +22,7 @@ const menuSections = [
       {
         name: "Alcoholic",
         items: [
-          { name: "Red Wine", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0489.jpg?raw=true" },
+          { name: "Red Wine", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0520.jpg?raw=true" },
           { name: "Whiskey", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0498.jpg?raw=true" },
         ]
       },
