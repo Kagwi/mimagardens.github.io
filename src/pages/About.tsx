@@ -44,6 +44,70 @@ const About = () => {
           </motion.div>
         </div>
       </section>
+
+      {/* Our Menu's Sneak Peek Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-center mb-12">Our Menu's Sneak Peek</h2>
+          
+          {/* Food Section */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-center mb-8">Food</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              {["Dish 1", "Dish 2", "Dish 3", "Dish 4"].map((dish, index) => (
+                <motion.div
+                  key={index}
+                  className="rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+                >
+                  <img src={`https://example.com/food${index + 1}.jpg`} alt={dish} className="w-full h-48 object-cover" />
+                </motion.div>
+              ))}
+            </div>
+          </div>
+
+          {/* Desserts Section */}
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-center mb-8">Desserts</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              {["Dessert 1", "Dessert 2", "Dessert 3", "Dessert 4"].map((dessert, index) => (
+                <motion.div
+                  key={index}
+                  className="rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+                >
+                  <img src={`https://example.com/dessert${index + 1}.jpg`} alt={dessert} className="w-full h-48 object-cover" />
+                </motion.div>
+              ))}
+            </div>
+          </div>
+
+          {/* Beverages Section */}
+          <div>
+            <h3 className="text-2xl font-bold text-center mb-8">Beverages</h3>
+            
+            {/* Alcoholic Drinks */}
+            <h4 className="text-xl font-semibold text-center mb-6">Alcoholic</h4>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+              {[...Array(4)].map((_, index) => (
+                <motion.div
+                  key={index}
+                  className="rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+                >
+                  <img src={`https://example.com/alcoholic${index + 1}.jpg`} alt={`Alcoholic Drink ${index + 1}`} className="w-full h-48 object-cover" />
+                </motion.div>
+              ))}
+            </div>
+
+            {/* Non-Alcoholic Drinks */}
+            <h4 className="text-xl font-semibold text-center mb-6">Non-Alcoholic</h4>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              {[...Array(4)].map((_, index) => (
+                <motion.div
+                  key={index}
+                  className="rounded-lg shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+                >
+                  <img src={`https://example.com/nonalcoholic${index + 1}.jpg`} alt={`Non-Alcoholic Drink ${index + 1}`} className="w-full h-48 object-cover" />
+                </motion.div>
+              ))}
             </div>
           </div>
         </div>
