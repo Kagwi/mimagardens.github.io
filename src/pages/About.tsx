@@ -45,12 +45,12 @@ const About = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0713.jpg?raw=true"
+                src="https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0718.jpg?raw=true"
                 alt="Mima Gardens 1"
                 className="w-full h-64 rounded-lg shadow-xl object-cover hover:scale-105 transition-transform duration-300"
               />
               <img
-                src="https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0718.jpg?raw=true"
+                src="https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0713.jpg?raw=true"
                 alt="Mima Gardens 2"
                 className="w-full h-64 rounded-lg shadow-xl object-cover hover:scale-105 transition-transform duration-300"
               />
