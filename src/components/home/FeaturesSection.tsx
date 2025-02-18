@@ -6,17 +6,32 @@ const features = [
   {
     title: 'Beautiful Gardens',
     description: 'Lush green gardens perfect for outdoor events and photography',
-    image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gardens%20Hero%20Image%202.PNG?raw=true',
+    image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0659.jpg?raw=true',
   },
   {
     title: 'Customizable Events',
     description: 'Mima Gardens offers a spacious, well-maintained venue tailored to suit your unique event needs.',
-    image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/ImageEnhancer_Mima%20Gardens%2047.PNG?raw=true',
+    image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0483.jpg?raw=true',
+  },
+  {
+    title: 'Ample Parking',
+    description: 'Mima Gardens provides a spacious, well-maintained venue with ample parking, perfect for hosting an event for many people',
+    image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0437.jpg?raw=true',
   },
   {
     title: 'Excellent Cuisine',
     description: 'Delicious dishes served in a serene environment',
     image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80',
+  },
+  {
+    title: 'Sophisticated Bar Experience.',
+    description: 'Mima Gardens boasts a sophisticated bar, offering a refined atmosphere perfect for enjoying signature cocktails.',
+    image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0526.jpg?raw=true',
+  },
+  {
+    title: 'Excellent Customer Service',
+    description: 'Mima Gardens provides attentive customer service, focused on meeting your needs and making your experience seamless.',
+    image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0496.jpg?raw=true',
   },
 ];
 
