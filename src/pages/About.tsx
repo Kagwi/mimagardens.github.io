@@ -33,12 +33,12 @@ const About = () => {
               <img
                 src="https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Edited%202.PNG?raw=true"
                 alt="Mima Gardens 1"
-                className="w-full h-auto rounded-lg shadow-xl object-cover"
+                className="w-full h-64 rounded-lg shadow-xl object-cover"
               />
               <img
                 src="https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Edited%204(c).PNG?raw=true"
                 alt="Mima Gardens 2"
-                className="w-full h-auto rounded-lg shadow-xl object-cover"
+                className="w-full h-64 rounded-lg shadow-xl object-cover"
               />
             </div>
           </motion.div>
