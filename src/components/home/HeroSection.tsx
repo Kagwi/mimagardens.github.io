@@ -35,10 +35,12 @@ const HeroSection = () => {
       >
         {heroImages.map((image, index) => (
           <SwiperSlide key={index}>
-            <div
-              className="w-full h-full bg-cover bg-center bg-no-repeat"
-              style={{ backgroundImage: `url(${image})` }}
-            >
+            <div className="w-full h-full flex items-center justify-center">
+              <img 
+                src={image} 
+                alt={`Slide ${index + 1}`} 
+                className="w-full h-full object-contain"
+              />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                 <div className="text-center text-white px-4">
                   <motion.h1
