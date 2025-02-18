@@ -45,6 +45,7 @@ const About = () => {
         </div>
       </section>
 
+      <MenuSection />
       <EventBooking />
     </div>
   );
