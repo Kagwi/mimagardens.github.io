@@ -12,7 +12,7 @@ const heroImages = [
   'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0673.jpg?raw=true',
   'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0475.jpg?raw=true',
   'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0649.jpg?raw=true',
-  'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0713.jpg?raw=true',
+  'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0703.jpg?raw=true',
 ];
 
 const HeroSection = () => {
