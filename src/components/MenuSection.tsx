@@ -29,7 +29,7 @@ const menuSections = [
       {
         name: "Non-Alcoholic",
         items: [
-          { name: "Fresh Juice", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0510.jpg?raw=true" },
+          { name: "Juice", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0510.jpg?raw=true" },
           { name: "Milkshake", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93" },
         ]
       }
