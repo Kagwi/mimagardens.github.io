@@ -22,14 +22,14 @@ const Contact = () => {
                   <Phone className="text-emerald-600" size={24} />
                   <div>
                     <h3 className="font-semibold">Phone</h3>
-                    <p>+254 700 000000</p>
+                    <p>+254 704131385</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Mail className="text-emerald-600" size={24} />
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p>info@mimagardens.co.ke</p>
+                    <p>mimagardens2121ltd@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -43,7 +43,13 @@ const Contact = () => {
                   <Clock className="text-emerald-600" size={24} />
                   <div>
                     <h3 className="font-semibold">Opening Hours</h3>
-                    <p>Monday - Sunday: 24 Hours</p>
+                    <p>Monday: 08:00 HRS – 23:00 HRS</p>  
+                    <p>Tuesday: 08:00 HRS – 23:00 HRS</p>  
+                    <p>Wednesday: 08:00 HRS – 23:00 HRS</p>  
+                    <p>Thursday: 08:00 HRS – 23:00 HRS</p>  
+                    <p>Friday: 08:00 HRS – 00:00 HRS</p>  
+                    <p>Saturday: 08:00 HRS – 00:00 HRS</p>  
+                    <p>Sunday: 08:00 HRS – 00:00 HRS</p>  
                   </div>
                 </div>
               </div>
