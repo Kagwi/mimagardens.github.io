@@ -3,18 +3,6 @@ import { motion } from 'framer-motion';
 
 const images = [
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0652.jpg?raw=true',
-    category: 'Enjoy Nature',
-  },
-  {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0475.jpg?raw=true',
-    category: 'Joyful Social Getaways',
-  },
-  {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0468.jpg?raw=true',
-    category: 'Work Online in Serenity',
-  },
-  {
     url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0489.jpg?raw=true',
     category: 'Sips & Stories',
   },
@@ -49,6 +37,18 @@ const images = [
   {
     url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0696.jpg?raw=true',
     category: 'All-Season Gazebos',
+  },
+  {
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0652.jpg?raw=true',
+    category: 'Enjoy Nature',
+  },
+  {
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0475.jpg?raw=true',
+    category: 'Joyful Social Getaways',
+  },
+  {
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0468.jpg?raw=true',
+    category: 'Work Online in Serenity',
   },
 ];
 
