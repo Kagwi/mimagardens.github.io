@@ -43,13 +43,13 @@ const Contact = () => {
                   <Clock className="text-emerald-600" size={24} />
                   <div>
                     <h3 className="font-semibold">Opening Hours</h3>
-                    <p>Monday: 0800 Hrs – 2300 HRS</p>  
-                    <p>Tuesday: 0800 HRS – 2300 HRS</p>  
-                    <p>Wednesday: 0800 HRS – 2300 HRS</p>  
-                    <p>Thursday: 0800 HRS – 2300 HRS</p>  
-                    <p>Friday: 0800 HRS – 0000 HRS</p>  
-                    <p>Saturday: 0800 HRS – 0000 HRS</p>  
-                    <p>Sunday: 0800 HRS – 0000 HRS</p>  
+                   Monday: 08:00 AM – 11:00 PM
+                   Tuesday: 08:00 AM – 11:00 PM
+                   Wednesday: 08:00 AM – 11:00 PM
+                   Thursday: 08:00 AM – 11:00 PM
+                   Friday: 08:00 AM – 12:00 AM
+                   Saturday: 08:00 AM – 12:00 AM
+                   Sunday: 08:00 AM – 12:00 AM  
                   </div>
                 </div>
               </div>
