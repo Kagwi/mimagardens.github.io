@@ -11,7 +11,7 @@ const Contact = () => {
         className="py-16 bg-cover bg-center" 
         style={{ backgroundImage: "url('https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0648.jpg?raw=true')" }}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-white bg-opacity-70 p-8 rounded-lg shadow-lg">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-white bg-opacity-80 p-8 rounded-lg shadow-lg">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
