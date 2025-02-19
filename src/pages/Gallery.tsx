@@ -15,10 +15,10 @@ const Gallery = () => {
           >
             <h1 className="text-4xl font-bold mb-4">Gallery</h1>
             <p className="text-lg text-gray-600">
-              Experience the Beauty and Elegance of Mima Gardens through our Photo Gallery
+              Experience the Beauty and Elegance of Mima Gardens
             </p>
             <p className="text-lg text-gray-600">
-              Begin your journey through Mima’s living canvas
+              Here's our Living Canvas...
             </p>
           </motion.div>
           <ImageGallery />
