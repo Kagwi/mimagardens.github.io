@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const images = [
   {
     url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0652.jpg?raw=true',
-    category: 'Enjoy Nature's Beauty',
+    category: 'Enjoy Nature',
   },
   {
     url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0475.jpg?raw=true',
