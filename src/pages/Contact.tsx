@@ -22,34 +22,34 @@ const Contact = () => {
                   <Phone className="text-emerald-600" size={24} />
                   <div>
                     <h3 className="font-semibold">Phone</h3>
-                    <p>+254 704131385</p>
+                      <p>+254 704131385</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Mail className="text-emerald-600" size={24} />
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p>mimagardens2121ltd@gmail.com</p>
+                      <p>mimagardens2121ltd@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <MapPin className="text-emerald-600" size={24} />
                   <div>
                     <h3 className="font-semibold">Location</h3>
-                    <p>Kenol-Murang'a Highway, Maragua</p>
+                      <p>Kenol-Murang'a Highway, Maragua</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Clock className="text-emerald-600" size={24} />
                   <div>
                     <h3 className="font-semibold">Opening Hours</h3>
-                   <p> Monday: 08:00 AM – 11:00 PM </p>
-                   <p> Tuesday: 08:00 AM – 11:00 PM </p>
-                   <p> Wednesday: 08:00 AM – 11:00 PM </p>
-                   <p> Thursday: 08:00 AM – 11:00 PM </p>
-                   <p> Friday: 08:00 AM – 12:00 AM </p>
-                   <p> Saturday: 08:00 AM – 12:00 AM </p>
-                   <p> Sunday: 08:00 AM – 12:00 AM </p>   
+                     <p> Monday: 08:00 AM – 11:00 PM </p>
+                     <p> Tuesday: 08:00 AM – 11:00 PM </p>
+                     <p> Wednesday: 08:00 AM – 11:00 PM </p>
+                     <p> Thursday: 08:00 AM – 11:00 PM </p>
+                     <p> Friday: 08:00 AM – 12:00 AM </p>
+                     <p> Saturday: 08:00 AM – 12:00 AM </p>
+                     <p> Sunday: 08:00 AM – 12:00 AM </p>   
                   </div>
                 </div>
               </div>
