@@ -19,7 +19,7 @@ const features = [
     image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0437.jpg?raw=true',
   },
   {
-    title: 'Excellent Cuisine',
+    title: 'Your Favorite Local Cuisine',
     description: 'Delicious dishes served in a serene environment',
     image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&q=80',
   },
