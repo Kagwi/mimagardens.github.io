@@ -20,7 +20,7 @@ const images = [
   },
   {
     url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0657.jpg?raw=true',
-    category: 'Corporate Event Spaces',
+    category: 'Corporate Events, Weddings & Baby Showers',
   },
   {
     url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0669.jpg?raw=true',
