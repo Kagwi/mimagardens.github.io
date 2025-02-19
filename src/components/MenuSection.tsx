@@ -23,13 +23,13 @@ const menuSections = [
         name: "Alcoholic 🍾",
         items: [
           { name: "Signature Cocktails", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0520.jpg?raw=true" },
-          { name: " 🍷 Classic Wines and Strong Drinks 🥃", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0498.jpg?raw=true" },
+          { name: "Classic Wines and Strong Drinks 🥃", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0498.jpg?raw=true" },
         ]
       },
       {
         name: "Non-Alcoholic",
         items: [
-          { name: "Juices", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0071-2.jpg?raw=true" },
+          { name: "Juices 🍷", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0071-2.jpg?raw=true" },
           { name: "Milkshakes 🍹", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0076-2.jpg?raw=true" },
         ]
       }
