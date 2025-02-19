@@ -5,22 +5,22 @@ const menuSections = [
   {
     name: "Food",
     items: [
-      { name: "Nyama Choma", image: "https://images.unsplash.com/photo-1544025162-d76694265947" },
-      { name: "Pilau", image: "https://images.unsplash.com/photo-1596797038530-2c107229654b" },
+      { name: "Nyama Choma", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0007.jpg?raw=true" },
+      { name: "Afro Platter 😋", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0056-2.jpg?raw=true" },
     ]
   },
   {
-    name: "Desserts",
+    name: "Desserts & Salads",
     items: [
-      { name: "Ice Cream", image: "https://images.unsplash.com/photo-1551024601-bec78aea704b" },
-      { name: "Fruit Salad", image: "https://images.unsplash.com/photo-1573821663912-28c58b55b3ff" },
+      { name: "Desserts", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0050-2.jpg?raw=true" },
+      { name: "Appetizer Salads", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0061-2.jpg?raw=true" },
     ]
   },
   {
     name: "Beverages",
     subsections: [
       {
-        name: "Alcoholic",
+        name: "Alcoholic 🍾",
         items: [
           { name: "Signature Cocktails", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0520.jpg?raw=true" },
           { name: "Classic Wines and Strong Drinks", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0498.jpg?raw=true" },
@@ -29,8 +29,8 @@ const menuSections = [
       {
         name: "Non-Alcoholic",
         items: [
-          { name: "Juice", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0510.jpg?raw=true" },
-          { name: "Milkshake", image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93" },
+          { name: "Juices", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0071-2.jpg?raw=true" },
+          { name: "Milkshakes", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0076-2.jpg?raw=true" },
         ]
       }
     ]
