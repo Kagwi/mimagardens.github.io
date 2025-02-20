@@ -4,72 +4,59 @@ import { useInView } from 'react-intersection-observer';
 
 const features = [
   {
-    title: '🌿 Beautiful Gardens',
-    description: 'Immerse yourself in the lush green surroundings of Mima Gardens. Our beautifully manicured gardens provide the perfect backdrop for any occasion, be it weddings, parties, or photography sessions. Experience nature at its finest with our serene atmosphere and picturesque views.',
+    title: 'Beautiful Gardens',
+    description: 'Mima Gardens boasts stunning, well-manicured gardens, creating a tranquil and picturesque environment. These lush green spaces are ideal for weddings, photo shoots, and outdoor relaxation, offering a blend of natural beauty and serenity.',
     image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0659.jpg?raw=true',
   },
   {
-    title: '🎉 Customizable Events',
-    description: 'At Mima Gardens, we understand that every event is unique. We offer fully customizable spaces and services tailored to meet your specific needs, whether it’s a corporate function, a birthday celebration, or a wedding. Let us bring your dream event to life!',
+    title: 'Customizable Events',
+    description: 'We provide a spacious and well-maintained venue that can be customized to match your event’s unique needs. Whether it’s a wedding, birthday party, or corporate gathering, our team ensures every detail is tailored to perfection.',
     image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0483.jpg?raw=true',
   },
   {
-    title: '🚗 Ample Parking',
-    description: 'No need to worry about parking! Mima Gardens offers a spacious and well-maintained parking area to accommodate all your guests comfortably. Our secure parking ensures a hassle-free experience from arrival to departure.',
+    title: 'Ample Parking',
+    description: 'With a large parking space, Mima Gardens ensures convenience for all guests. No need to worry about where to park; we have enough space to accommodate many vehicles, ensuring a hassle-free experience.',
     image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0437.jpg?raw=true',
   },
   {
-    title: '🍽️ Your Favorite Local Cuisine',
-    description: 'Savor the rich flavors of our expertly prepared local and international dishes. Our chefs use the freshest ingredients to craft delicious meals that will tantalize your taste buds, all served in a serene and inviting atmosphere.',
+    title: 'Your Favorite Local Cuisine',
+    description: 'Our restaurant serves delicious, freshly prepared local and international dishes in a serene environment. We focus on quality ingredients and exceptional flavors, making every meal a delightful experience.',
     image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0020-2.jpg?raw=true',
   },
   {
-    title: '🍹 Sophisticated Bar Experience',
-    description: 'Indulge in our well-stocked bar, offering an array of premium drinks and signature cocktails. Whether you prefer a refreshing mocktail or a fine wine, our bar provides the perfect setting for a relaxing evening.',
+    title: 'Sophisticated Bar Experience',
+    description: 'Enjoy a sophisticated bar experience with a wide range of drinks, including signature cocktails, fine wines, and premium spirits. The ambiance is stylish and relaxing, perfect for winding down after a long day.',
     image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0526.jpg?raw=true',
   },
   {
-    title: '💎 Excellent Customer Service',
-    description: 'Our dedicated staff is committed to making your visit memorable. From event planning to on-the-spot assistance, we ensure that you receive top-notch service, making your experience at Mima Gardens seamless and enjoyable.',
+    title: 'Excellent Customer Service',
+    description: 'At Mima Gardens, customer satisfaction is our top priority. Our dedicated team provides friendly, professional, and attentive service to ensure your visit is memorable and enjoyable.',
     image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0496.jpg?raw=true',
   },
 ];
 
 const coreValues = [
-  {
-    title: '🤝 Integrity',
-    description: 'We are committed to upholding the highest standards of honesty and transparency in all our interactions. At Mima Gardens, integrity is the foundation of our service, ensuring trust and reliability for every client.'
-  },
-  {
-    title: '❤️ Customer Satisfaction',
-    description: 'Our guests are our priority. We go above and beyond to create an experience that leaves you feeling valued, welcomed, and appreciated. Your happiness is our success!'
-  },
-  {
-    title: '🌍 Sustainability',
-    description: 'Mima Gardens takes pride in being environmentally conscious. We implement sustainable practices to protect nature, reduce waste, and contribute positively to our community and planet.'
-  },
-  {
-    title: '🎭 Creativity',
-    description: 'We believe in bringing imagination to life. Whether it’s through event decor, customized menus, or entertainment options, our creativity ensures every visit is special and unique.'
-  },
-  {
-    title: '🎯 Excellence',
-    description: 'From service to ambiance, we strive for excellence in everything we do. Our attention to detail and commitment to quality ensure that every experience at Mima Gardens is nothing short of perfect.'
-  }
+  { title: '🌟 Excellence', description: 'We are committed to delivering top-tier services and ensuring that every guest experiences the highest level of hospitality and professionalism.' },
+  { title: '🤝 Integrity', description: 'Honesty and transparency are at the heart of everything we do. We uphold strong moral principles and treat every customer with fairness and respect.' },
+  { title: '💚 Customer Satisfaction', description: 'Our customers are our priority, and we go above and beyond to ensure their needs are met with warmth and efficiency.' },
+  { title: '🌍 Environmental Consciousness', description: 'We take care of our environment by maintaining eco-friendly practices and ensuring our gardens remain beautiful and sustainable.' },
+  { title: '🏆 Innovation', description: 'We constantly improve our services, incorporating modern solutions and creative ideas to provide an exceptional experience for our guests.' },
+  { title: '🏡 Community Engagement', description: 'Mima Gardens actively supports and collaborates with the local community to create a positive impact through partnerships and social initiatives.' },
 ];
 
 const testimonials = [
-  { name: 'Wanjiru M.', text: 'Mima Gardens is truly a hidden gem! The serene environment and well-manicured gardens made my event magical. I will definitely be back!' },
-  { name: 'James K.', text: 'The customer service here is exceptional! The staff was so friendly and accommodating, making sure we had everything we needed for a wonderful experience.' },
-  { name: 'Amina O.', text: 'Absolutely loved the food and ambiance! The location is super convenient, and the entire place exudes warmth and relaxation. Highly recommended!' },
-  { name: 'Peter N.', text: 'The attention to detail in their event planning is unmatched. Everything was set up perfectly, and my guests were truly impressed. Kudos to the team at Mima Gardens!' },
-  { name: 'Lucy W.', text: 'Mima Gardens is the perfect getaway! The blend of nature and luxury made my weekend stay delightful. It’s now my go-to spot for relaxation and celebrations.' }
+  { name: 'Wanjiku Kamau', text: 'Mima Gardens is an absolute gem! The gardens are breathtaking, and the entire place feels so peaceful. Perfect for a weekend getaway!' },
+  { name: 'Mutua Njoroge', text: 'I hosted my wedding at Mima Gardens, and everything was perfect! The staff was professional, and the ambiance was stunning. Highly recommend!' },
+  { name: 'Achieng Otieno', text: 'Excellent customer service! The staff was warm and welcoming, and the food was top-notch. I’ll definitely be coming back soon.' },
+  { name: 'Mwangi Karanja', text: 'The location is very convenient and easily accessible. Whether you’re looking for a relaxing retreat or a vibrant event space, this is the place to be.' },
+  { name: 'Fatuma Hassan', text: 'Mima Gardens combines beauty and comfort perfectly. The elegant decor, stunning gardens, and delicious cuisine make it a must-visit spot.' },
+  { name: 'Cherono Kipchumba', text: 'I love how Mima Gardens embraces nature while providing modern facilities. It’s the perfect blend of relaxation and sophistication!' },
 ];
 
 const FeaturesSection = () => {
-  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
   const [selectedValue, setSelectedValue] = useState(null);
-  
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
+
   return (
     <motion.div
       ref={ref}
@@ -82,16 +69,46 @@ const FeaturesSection = () => {
         <h2 className="text-3xl font-bold text-center mb-12">Why Choose Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div
+            <motion.div
               key={index}
-              className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300"
+              whileHover={{ scale: 1.05 }}
+              className="bg-white rounded-lg shadow-lg overflow-hidden"
             >
               <img src={feature.image} alt={feature.title} className="w-full h-48 object-cover" />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
                 <p className="text-gray-600">{feature.description}</p>
               </div>
-            </div>
+            </motion.div>
+          ))}
+        </div>
+        
+        <h2 className="text-3xl font-bold text-center my-12">Our Core Values</h2>
+        <div className="flex flex-col items-center space-y-6">
+          {coreValues.map((value, index) => (
+            <motion.div
+              key={index}
+              whileHover={{ scale: 1.05 }}
+              className="cursor-pointer bg-white p-6 rounded-lg shadow-lg w-full max-w-2xl text-center"
+              onClick={() => setSelectedValue(value.description)}
+            >
+              <h3 className="text-xl font-semibold">{value.title}</h3>
+            </motion.div>
+          ))}
+        </div>
+        {selectedValue && <p className="text-center mt-4 text-gray-700">{selectedValue}</p>}
+
+        <h2 className="text-3xl font-bold text-center my-12">Client Testimonials</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {testimonials.map((testimonial, index) => (
+            <motion.div
+              key={index}
+              whileHover={{ scale: 1.05 }}
+              className="bg-white p-6 rounded-lg shadow-lg text-center"
+            >
+              <p className="text-gray-600 italic">"{testimonial.text}"</p>
+              <h4 className="mt-4 font-semibold">- {testimonial.name}</h4>
+            </motion.div>
           ))}
         </div>
       </div>
