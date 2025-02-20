@@ -59,7 +59,7 @@ const Footer = () => {
                 <Instagram size={24} />
               </a>
               <a href="#" className="hover:text-emerald-400 transition-colors">
-                <TikTok size={24} />
+                <Twitter size={24} />
               </a>
               <a href="https://wa.me/254704131385" className="hover:text-emerald-400 transition-colors">
                 <img src="https://green-api.com/en/docs/assets/whatsapp.svg" alt="WhatsApp" className="w-6 h-6" />
