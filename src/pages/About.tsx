@@ -20,7 +20,7 @@ const About = () => {
               <p className="text-lg text-gray-600 mb-6">
                 Located in Murang'a County, Mima Gardens and Hotel offers more than just a venue—it’s a place where nature 
                 and hospitality blend to create memorable experiences. We aim for genuine warmth and care to define everything we do, providing
-                not just a service, but a lasting connection to the beauty and tranquility of our surroundings.
+                not just a service, but a lasting connection to the beauty of our surroundings.
               </p>
               <p className="text-lg text-gray-600 mb-6">
                 Renowned for our lush, vibrant gardens, we’ve become a trusted choice for social and corporate 
@@ -35,9 +35,8 @@ const About = () => {
               {/* Mission and Vision Section */}
               <h2 className="text-2xl font-semibold mt-8 mb-4">Our Mission</h2>
               <p className="text-lg text-gray-600 mb-6">
-                To provide a premier hospitality and events experience by offering a calm and 
-                elegant environment, exceptional service, and delicious meals that create 
-                unforgettable memories for our guests.
+                To provide a premier hospitality and events experience to our esteemed customers by offering them an
+                elegant environment, exceptional service, and delicious meals that create unforgettable memories for our guests.
               </p>
 
               <h2 className="text-2xl font-semibold mt-8 mb-4">Our Vision</h2>
