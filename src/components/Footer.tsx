@@ -52,14 +52,14 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4 mb-4">
-              <a href="#" className="hover:text-emerald-400 transition-colors">
+              <a href="https://www.facebook.com/share/1A2Quw9cTB/" className="hover:text-emerald-400 transition-colors">
                 <Facebook size={24} />
               </a>
-              <a href="#" className="hover:text-emerald-400 transition-colors">
+              <a href="https://www.instagram.com/mimagardens2121?igsh=dG5scGo2NmY4ZTB1" className="hover:text-emerald-400 transition-colors">
                 <Instagram size={24} />
               </a>
               <a href="#" className="hover:text-emerald-400 transition-colors">
-                <Twitter size={24} />
+                <TikTok size={24} />
               </a>
               <a href="https://wa.me/254704131385" className="hover:text-emerald-400 transition-colors">
                 <img src="https://green-api.com/en/docs/assets/whatsapp.svg" alt="WhatsApp" className="w-6 h-6" />
