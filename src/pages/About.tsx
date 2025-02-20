@@ -18,22 +18,25 @@ const About = () => {
             <div>
               <h1 className="text-4xl font-bold mb-6">About Mima Gardens</h1>
               <p className="text-lg text-gray-600 mb-6">
-                Mima Gardens is a versatile events and accommodation venue located in Maragua, 
-                Murang'a County, Kenya. We are renowned for our lush green gardens, making us 
-                a popular destination for social and corporate events, including weddings, 
-                family gatherings, baby showers, and more.
+                Located in Murang'a County, Mima Gardens and Hotel offers more than just a venue—it’s a place where nature 
+                and hospitality blend to create memorable experiences. We aim for genuine warmth and care to define everything we do, providing
+                not just a service, but a lasting connection to the beauty and tranquility of our surroundings.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Our venue offers dining options with a variety of delicacies served 
-                in a serene environment. We provide exceptional services to make your experience
-                one for the books.
+                Renowned for our lush, vibrant gardens, we’ve become a trusted choice for social and corporate 
+                gatherings, including weddings, family celebrations, baby showers, and more. Every event here is thoughtfully tailored, reflecting the heart of our brand: authenticity, 
+                natural beauty, and a commitment to making every guest feel valued and at home.
+              </p>
+              <p className="text-lg text-gray-600 mb-6">
+                Enjoy a variety of delicious delicacies served in a serene, inviting atmosphere that feels like a peaceful escape. 
+                Our team is dedicated to providing heartfelt, exceptional service, making sure every moment here leaves you feeling relaxed, welcomed, and truly special. 
               </p>
 
               {/* Mission and Vision Section */}
               <h2 className="text-2xl font-semibold mt-8 mb-4">Our Mission</h2>
               <p className="text-lg text-gray-600 mb-6">
-                To provide a premier hospitality and events experience by offering a tranquil and 
-                elegant environment, exceptional service, and exquisite cuisine that create 
+                To provide a premier hospitality and events experience by offering a calm and 
+                elegant environment, exceptional service, and delicious meals that create 
                 unforgettable memories for our guests.
               </p>
 
