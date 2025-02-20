@@ -36,7 +36,7 @@ const About = () => {
               <h2 className="text-2xl font-semibold mt-8 mb-4">Our Mission</h2>
               <p className="text-lg text-gray-600 mb-6">
                 To provide a premier hospitality and events experience to our esteemed customers by offering them an
-                elegant environment, exceptional service, and delicious meals that create unforgettable memories for our guests.
+                elegant environment, exceptional service, and delicious meals that create unforgettable memories.
               </p>
 
               <h2 className="text-2xl font-semibold mt-8 mb-4">Our Vision</h2>
