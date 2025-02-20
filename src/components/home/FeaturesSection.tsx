@@ -36,19 +36,19 @@ const features = [
 ];
 
 const coreValues = [
-  { title: '🌟 Excellence', description: 'We are committed to delivering top-tier services and ensuring that every guest experiences the highest level of hospitality and professionalism. We strive to surpass expectations in every aspect of our business, from our meticulously maintained gardens to our world-class customer service.' },
+  { title: '🌟 Excellence', description: 'We are committed to delivering top-tier services and ensuring that every guest experiences the highest level of hospitality and professionalism. We strive to surpass expectations in every aspect of our business.' },
   { title: '🤝 Integrity', description: 'Honesty and transparency are at the heart of everything we do. We uphold strong moral principles and treat every customer with fairness and respect. Our actions and decisions are driven by a deep commitment to ethical business practices.' },
   { title: '💚 Customer Satisfaction', description: 'Our customers are our priority, and we go above and beyond to ensure their needs are met with warmth and efficiency. Every interaction is an opportunity to create a lasting impression, and we pride ourselves on exceeding expectations.' },
-  { title: '🌍 Environmental Consciousness', description: 'We take care of our environment by maintaining eco-friendly practices and ensuring our gardens remain beautiful and sustainable. Our commitment to the planet is reflected in our sustainable landscaping and resource conservation efforts.' },
-  { title: '🏆 Innovation', description: 'We constantly improve our services, incorporating modern solutions and creative ideas to provide an exceptional experience for our guests. From state-of-the-art facilities to cutting-edge event planning, we embrace innovation at every step.' },
+  { title: '🌍 Environmental Consciousness', description: 'We take care of our environment by maintaining eco-friendly practices and ensuring our gardens remain beautiful and sustainable. We aim to ensure our clients can bask in the beauty of nature and take a break from the hustle and bustle of modern-day responsibilities.' },
+  { title: '🏆 Innovation', description: 'We constantly improve our services, incorporating modern solutions and creative ideas to provide an exceptional experience for our guests. Do you have an idea of a unique event, just book an event on time and we will plan it together.' },
   { title: '🏡 Community Engagement', description: 'Mima Gardens actively supports and collaborates with the local community to create a positive impact through partnerships and social initiatives. Our commitment to social responsibility extends beyond our business, fostering meaningful connections with our neighbors.' },
 ];
 
 const testimonials = [
-  { name: 'Wanjiku Kamau', text: 'Mima Gardens is an absolute gem! The gardens are breathtaking, and the entire place feels so peaceful, yet it is just next to a main road. Perfect for a getaway!' },
+  { name: 'Wanjiku Kamau', text: 'Mima Gardens is an absolute gem! The gardens are breathtaking, and the entire place feels so peaceful, yet it is just next to a main road. Perfect for a getaway.' },
   { name: 'Mr. Mutua', text: 'I hosted my wedding at Mima Gardens, and everything was perfect. The staff was professional, and the ambiance was stunning. Highly recommend!' },
   { name: 'Achieng O.', text: 'I loved the customer service. The staff was warm and welcoming, and the food was top-notch. I’ll definitely be coming back soon.' },
-  { name: 'Yegon', text: 'Mima Gardens exceeded my expectations! The venue is stunning, and the staff was so helpful.' },
+  { name: 'Yegon', text: 'Mima Gardens exceeded my expectations!' },
   { name: 'Alice Wambui', text: 'Amazing experience at Mima Gardens. I mean, the gardens are beautiful, and the food was exceptional. The perfect place for a family gathering.' },
   { name: 'James Mutiso', text: 'The team went out of their way to ensure everything was perfect for the birthday of my beloved Emmy. My daughter and her friends trully enjoyed, and so did I.' },
 ];
