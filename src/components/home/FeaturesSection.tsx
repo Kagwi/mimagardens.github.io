@@ -5,12 +5,12 @@ import { useInView } from 'react-intersection-observer';
 const features = [
   {
     title: 'Beautiful Gardens',
-    description: 'Mima Gardens boasts stunning, well-manicured gardens, creating a tranquil and picturesque environment. These lush green spaces are ideal for weddings, photo shoots, and outdoor relaxation, offering a blend of natural beauty and serenity.',
+    description: 'Mima Gardens features vibrant, well-tended gardens that surround you with the comforting warmth of nature. The rich greenery and peaceful atmosphere invite you to unwind, relax, and enjoy the soothing beauty of the natural world.',
     image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0659.jpg?raw=true',
   },
   {
     title: 'Customizable Events',
-    description: 'We provide a spacious and well-maintained venue that can be customized to match your event’s unique needs. Whether it’s a wedding, birthday party, or corporate gathering, our team ensures every detail is tailored to perfection.',
+    description: 'We provide a spacious and well-maintained venue that can be customized to match your event’s unique needs. Whether it’s a wedding, birthday party, ruracio, baby shower, corporate gathering, our team ensures every detail is tailored to perfection.',
     image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0483.jpg?raw=true',
   },
   {
@@ -45,12 +45,12 @@ const coreValues = [
 ];
 
 const testimonials = [
-  { name: 'Wanjiku Kamau', text: 'Mima Gardens is an absolute gem! The gardens are breathtaking, and the entire place feels so peaceful. Perfect for a weekend getaway!' },
-  { name: 'Mutua Njoroge', text: 'I hosted my wedding at Mima Gardens, and everything was perfect! The staff was professional, and the ambiance was stunning. Highly recommend!' },
-  { name: 'Achieng Otieno', text: 'Excellent customer service! The staff was warm and welcoming, and the food was top-notch. I’ll definitely be coming back soon.' },
-  { name: 'Samuel Kimani', text: 'Mima Gardens exceeded my expectations! The venue is stunning, and the staff was so helpful. It made my event a huge success.' },
-  { name: 'Alice Wambui', text: 'Amazing experience at Mima Gardens! The gardens are beautiful, and the food was exceptional. The perfect place for a family gathering.' },
-  { name: 'James Mutiso', text: 'One of the best venues I have ever visited! The atmosphere is serene, and the team goes out of their way to ensure everything is perfect.' },
+  { name: 'Wanjiku Kamau', text: 'Mima Gardens is an absolute gem! The gardens are breathtaking, and the entire place feels so peaceful, yet it is just next to a main road. Perfect for a getaway!' },
+  { name: 'Mr. Mutua', text: 'I hosted my wedding at Mima Gardens, and everything was perfect. The staff was professional, and the ambiance was stunning. Highly recommend!' },
+  { name: 'Achieng O.', text: 'I loved the customer service. The staff was warm and welcoming, and the food was top-notch. I’ll definitely be coming back soon.' },
+  { name: 'Yegon', text: 'Mima Gardens exceeded my expectations! The venue is stunning, and the staff was so helpful.' },
+  { name: 'Alice Wambui', text: 'Amazing experience at Mima Gardens. I mean, the gardens are beautiful, and the food was exceptional. The perfect place for a family gathering.' },
+  { name: 'James Mutiso', text: 'The team went out of their way to ensure everything was perfect for the birthday of my beloved Emmy. My daughter and her friends trully enjoyed, and so did I.' },
 ];
 
 const FeaturesSection = () => {
@@ -100,7 +100,7 @@ const FeaturesSection = () => {
           ))}
         </div>
 
-        <h2 className="text-3xl font-bold text-center my-12">Client Testimonials</h2>
+        <h2 className="text-3xl font-bold text-center my-12">What Our Customers are Saying About Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <motion.div
