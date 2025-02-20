@@ -4,8 +4,8 @@ import { Phone, Mail, MapPin, Facebook, Instagram, Twitter } from 'lucide-react'
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto px-6 py-12 sm:px-8 lg:px-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Section */}
           <div>
             <h3 className="text-2xl font-bold mb-4">Mima Gardens</h3>
@@ -18,17 +18,17 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
-            <div className="space-y-2">
+            <div className="space-y-3">
               <div className="flex items-center">
-                <Phone size={18} className="mr-2" />
+                <Phone size={18} className="mr-3" />
                 <span>+254 704131385</span>
               </div>
               <div className="flex items-center">
-                <Mail size={18} className="mr-2" />
-                <span>mimagardens2121ltd@gmail.com</span>
+                <Mail size={18} className="mr-3" />
+                <span className="break-words">mimagardens2121ltd@gmail.com</span>
               </div>
               <div className="flex items-center">
-                <MapPin size={18} className="mr-2" />
+                <MapPin size={18} className="mr-3" />
                 <span>Kenol-Murang'a Highway, Maragua</span>
               </div>
             </div>
@@ -37,14 +37,9 @@ const Footer = () => {
           {/* Business Hours */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Opening Hours</h4>
-            <div className="text-gray-300">
-              <p>Monday: 08:00 AM – 11:00 PM</p>
-              <p>Tuesday: 08:00 AM – 11:00 PM</p>
-              <p>Wednesday: 08:00 AM – 11:00 PM</p>
-              <p>Thursday: 08:00 AM – 11:00 PM</p>
-              <p>Friday: 08:00 AM – 12:00 AM</p>
-              <p>Saturday: 08:00 AM – 12:00 AM</p>
-              <p>Sunday: 08:00 AM – 12:00 AM</p>
+            <div className="text-gray-300 space-y-1">
+              <p>Mon-Thu: 08:00 AM – 11:00 PM</p>
+              <p>Fri-Sun: 08:00 AM – 12:00 AM</p>
             </div>
           </div>
           
