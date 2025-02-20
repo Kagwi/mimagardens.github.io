@@ -1,5 +1,6 @@
 import React from 'react';
 import { Phone, Mail, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
+import whatsappIcon from '/mnt/data/image.png';
 
 const Footer = () => {
   return (
@@ -21,11 +22,11 @@ const Footer = () => {
             <div className="space-y-2">
               <div className="flex items-center">
                 <Phone size={18} className="mr-2" />
-                <span>+254 700 000000</span>
+                <span>+254 704131385</span>
               </div>
               <div className="flex items-center">
                 <Mail size={18} className="mr-2" />
-                <span>info@mimagardens.co.ke</span>
+                <span>mimagardens2121ltd@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <MapPin size={18} className="mr-2" />
@@ -61,8 +62,8 @@ const Footer = () => {
               <a href="#" className="hover:text-emerald-400 transition-colors">
                 <Twitter size={24} />
               </a>
-              <a href="https://wp.me/254704131385" className="hover:text-emerald-400 transition-colors">
-                <span className="text-xl">📱</span>
+              <a href="https://wa.me/254704131385" className="hover:text-emerald-400 transition-colors">
+                <img src={whatsappIcon} alt="WhatsApp" className="w-6 h-6" />
               </a>
             </div>
             <h4 className="text-lg font-semibold mb-2">Quick Links</h4>
