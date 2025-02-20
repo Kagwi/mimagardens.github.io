@@ -41,7 +41,7 @@ const LocationMap = () => {
         <Marker position={position} icon={defaultIcon}>
           <Popup>
             <div className="text-center">
-              <strong>New Location</strong>
+              <strong>Mima Gardens & Restaurant</strong>
               <br />
               Coordinates: 0.7780° S, 37.1467° E
             </div>
