@@ -23,25 +23,35 @@ const RecenterMap = ({ position }: { position: [number, number] }) => {
 };
 
 const LocationMap = () => {
-  // Main location coordinates (0.7780° S, 37.1467° E)
-  const position: [number, number] = [-0.7780, 37.1467];
+  // Main location: Mima Gardens (coordinates)
+  const position: [number, number] = [-0.7730, 37.1450];
 
-  // Other nearby locations to display on the map
+  // Nearby points of interest
   const nearbyLocations = [
     {
-      position: [-0.7810, 37.1445],
-      name: 'Landmark 1',
-      description: 'A historical site with scenic views.',
+      position: [-0.7755, 37.1480],
+      name: 'Mima Gardens Entry',
+      description: 'Main entrance to the lush Mima Gardens.',
     },
     {
-      position: [-0.7790, 37.1500],
-      name: 'Restaurant 1',
-      description: 'Popular restaurant known for local cuisine.',
+      position: [-0.7720, 37.1415],
+      name: 'Mima Gardens Lake',
+      description: 'A peaceful lake located within the gardens.',
     },
     {
-      position: [-0.7750, 37.1435],
-      name: 'Park 1',
-      description: 'A serene park for outdoor activities and relaxation.',
+      position: [-0.7800, 37.1465],
+      name: 'Café Mima',
+      description: 'A cozy café known for serving refreshing drinks and snacks.',
+    },
+    {
+      position: [-0.7705, 37.1430],
+      name: 'Maragua Museum',
+      description: 'Museum showcasing local history and culture.',
+    },
+    {
+      position: [-0.7760, 37.1420],
+      name: 'Botanical Pavilion',
+      description: 'Pavilion highlighting rare plant species.',
     },
   ];
 
@@ -49,7 +59,7 @@ const LocationMap = () => {
     <div style={{ height: '500px', width: '100%', borderRadius: '0.5rem', overflow: 'hidden' }}>
       <MapContainer
         center={position}
-        zoom={14}
+        zoom={15}
         scrollWheelZoom={true} // Allow scroll zooming for better usability
         style={{ height: '100%', width: '100%' }}
       >
@@ -59,17 +69,17 @@ const LocationMap = () => {
           url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
         />
 
-        {/* Main location marker */}
+        {/* Main location marker for Mima Gardens */}
         <Marker position={position} icon={defaultIcon}>
           <Popup>
             <div className="text-center">
-              <strong>New Location</strong>
+              <strong>Mima Gardens</strong>
               <br />
-              Coordinates: 0.7780° S, 37.1467° E
+              Coordinates: 0.7730° S, 37.1450° E
               <br />
-              Address: Some Street, Maragua
+              Address: Garden Road, Maragua
               <br />
-              Details: A major point of interest in the region.
+              Details: A renowned botanical garden with scenic beauty and attractions.
             </div>
           </Popup>
         </Marker>
