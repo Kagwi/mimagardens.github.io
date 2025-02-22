@@ -25,7 +25,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-[80vh]"> 
       <Swiper
         modules={[Navigation, Autoplay]}
         navigation
