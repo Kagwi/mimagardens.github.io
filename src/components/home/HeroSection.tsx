@@ -1,10 +1,11 @@
-import React from 'react';
+import React from 'react'; 
 import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import { createEmailLink } from '../../utils/emailUtils';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import { ChevronDownIcon } from 'lucide-react';
 
 const heroImages = [
   'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0659.jpg?raw=true',
@@ -22,6 +23,13 @@ const HeroSection = () => {
       message: 'I would like to book accommodation at Mima Gardens.',
     };
     window.location.href = createEmailLink(initialData);
+  };
+
+  const scrollToContent = () => {
+    window.scrollTo({
+      top: window.innerHeight * 0.8,
+      behavior: 'smooth',
+    });
   };
 
   return (
@@ -74,6 +82,12 @@ const HeroSection = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <div 
+        className="absolute bottom-6 left-1/2 transform -translate-x-1/2 cursor-pointer animate-bounce"
+        onClick={scrollToContent}
+      >
+        <ChevronDownIcon size={40} className="text-white" />
+      </div>
     </div>
   );
 };
