@@ -66,6 +66,7 @@ const FeaturesSection = () => {
       className="py-20 bg-gray-50"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Features Section - Unchanged */}
         <h2 className="text-3xl font-bold text-center my-12">Our Features</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
@@ -83,23 +84,42 @@ const FeaturesSection = () => {
           ))}
         </div>
 
+        {/* Core Values with Dropdown */}
         <h2 className="text-3xl font-bold text-center my-12">Our Core Values</h2>
         <div className="flex flex-col items-center w-full space-y-6">
           {coreValues.map((value, index) => (
             <motion.div
               key={index}
-              whileHover={{ scale: 1.05, backgroundColor: '#38a169', color: '#fff' }}
-              className="cursor-pointer bg-white p-6 rounded-lg shadow-lg w-full text-center transition duration-300"
-              onClick={() => setSelectedValue(selectedValue === value.title ? null : value.title)}
+              whileHover={{ scale: 1.05 }}
+              className="w-full bg-white rounded-lg shadow-lg overflow-hidden"
             >
-              <h3 className="text-xl font-semibold">{value.title}</h3>
+              <button
+                onClick={() => setSelectedValue(selectedValue === value.title ? null : value.title)}
+                className="w-full px-6 py-4 flex justify-between items-center focus:outline-none focus:ring-2 focus:ring-green-500"
+              >
+                <h3 className="text-xl font-semibold text-left">{value.title}</h3>
+                <svg
+                  className={`w-6 h-6 transform transition-transform ${
+                    selectedValue === value.title ? 'rotate-180' : ''
+                  }`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              
               {selectedValue === value.title && (
-                <p className="mt-4 text-gray-700">{value.description}</p>
+                <div className="px-6 pb-4 pt-2 border-t border-gray-100">
+                  <p className="text-gray-600">{value.description}</p>
+                </div>
               )}
             </motion.div>
           ))}
         </div>
 
+        {/* Testimonials Section - Unchanged */}
         <h2 className="text-3xl font-bold text-center my-12">What Our Customers are Saying About Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
