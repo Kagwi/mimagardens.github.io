@@ -83,8 +83,8 @@ const HeroSection = () => {
         ))}
       </Swiper>
 
-      {/* Button container with z-index */}
-      <div className="relative z-10 flex flex-col items-center w-full pb-6 gap-y-4">
+      {/* Learn More Button */}
+      <div className="relative z-10 flex flex-col items-center w-full pb-6">
         <motion.button
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -92,11 +92,14 @@ const HeroSection = () => {
           onClick={scrollToNextSection}
           className="bg-white bg-opacity-10 border-2 border-white text-white px-6 py-3 rounded-full 
                    hover:bg-white hover:text-emerald-600 transition-all duration-300 backdrop-blur-sm
-                   text-lg font-medium"
+                   text-lg font-medium mb-4"
         >
           Learn more about Mima Gardens
         </motion.button>
+      </div>
 
+      {/* Scroll Down Button - Now positioned absolutely at the bottom */}
+      <div className="absolute bottom-0 left-0 w-full flex justify-center pb-4 z-10">
         <div 
           className="cursor-pointer animate-bounce flex flex-col items-center"
           onClick={scrollToNextSection}
