@@ -33,13 +33,13 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="relative w-full h-[80vh]"> 
+    <div className="relative w-full h-[80vh] flex flex-col justify-end"> 
       <Swiper
         modules={[Navigation, Autoplay]}
         navigation
         autoplay={{ delay: 5000 }}
         loop
-        className="w-full h-full"
+        className="w-full h-full absolute top-0"
       >
         {heroImages.map((image, index) => (
           <SwiperSlide key={index}>
@@ -82,11 +82,14 @@ const HeroSection = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div 
-        className="absolute bottom-6 left-1/2 transform -translate-x-1/2 cursor-pointer animate-bounce"
-        onClick={scrollToContent}
-      >
-        <ChevronDownIcon size={40} className="text-white" />
+      <div className="flex justify-center items-center w-full pb-6">
+        <div 
+          className="cursor-pointer animate-bounce flex flex-col items-center"
+          onClick={scrollToContent}
+        >
+          <ChevronDownIcon size={40} className="text-white" />
+          <span className="text-white text-sm">Scroll Down</span>
+        </div>
       </div>
     </div>
   );
