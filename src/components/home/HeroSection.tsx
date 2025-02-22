@@ -32,6 +32,13 @@ const HeroSection = () => {
     });
   };
 
+  const scrollToNextSection = () => {
+    const nextSection = document.getElementById('content-section');
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="relative w-full h-[80vh] flex flex-col justify-end"> 
       <Swiper
@@ -82,7 +89,16 @@ const HeroSection = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="flex justify-center items-center w-full pb-6">
+      <div className="flex flex-col justify-center items-center w-full pb-6 gap-y-4">
+        <motion.button
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+          onClick={scrollToNextSection}
+          className="bg-transparent border-2 border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-emerald-600 transition-colors"
+        >
+          Learn more about Mima Gardens
+        </motion.button>
         <div 
           className="cursor-pointer animate-bounce flex flex-col items-center"
           onClick={scrollToContent}
