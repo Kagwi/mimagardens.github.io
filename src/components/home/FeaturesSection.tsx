@@ -10,7 +10,7 @@ const features = [
   },
   {
     title: 'Customizable Events',
-    description: 'We provide a spacious and well-maintained venue that can be customized to match your event’s unique needs. Whether it’s a wedding, birthday party, ruracio, baby shower, or corporate gathering, our team ensures every detail is tailored to perfection.',
+    description: 'We provide a spacious and well-maintained venue that can be customized to match your event’s unique needs. Whether it’s a wedding, birthday party, ruracio, baby shower, corporate gathering, our team ensures every detail is tailored to perfection.',
     image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0483.jpg?raw=true',
   },
   {
@@ -40,7 +40,7 @@ const coreValues = [
   { title: '🤝 Integrity', description: 'Honesty and transparency are at the heart of everything we do. We uphold strong moral principles and treat every customer with fairness and respect. Our actions and decisions are driven by a deep commitment to ethical business practices.' },
   { title: '💚 Customer Satisfaction', description: 'Our customers are our priority, and we go above and beyond to ensure their needs are met with warmth and efficiency. Every interaction is an opportunity to create a lasting impression, and we pride ourselves on exceeding expectations.' },
   { title: '🌍 Environmental Consciousness', description: 'We take care of our environment by maintaining eco-friendly practices and ensuring our gardens remain beautiful and sustainable. We aim to ensure our clients can bask in the beauty of nature and take a break from the hustle and bustle of modern-day responsibilities.' },
-  { title: '🏆 Innovation', description: 'We constantly improve our services, incorporating modern solutions and creative ideas to provide an exceptional experience for our guests. Do you have an idea of a unique event? Just book an event on time, and we will plan it together.' },
+  { title: '🏆 Innovation', description: 'We constantly improve our services, incorporating modern solutions and creative ideas to provide an exceptional experience for our guests. Do you have an idea of a unique event?, just book an event on time and we will plan it together.' },
   { title: '🏡 Community Engagement', description: 'Mima Gardens actively supports and collaborates with the local community to create a positive impact through partnerships and social initiatives. Our commitment to social responsibility extends beyond our business, fostering meaningful connections with our neighbors.' },
 ];
 
@@ -50,7 +50,7 @@ const testimonials = [
   { name: 'Achieng O.', text: 'I loved the customer service. The staff was warm and welcoming, and the food was top-notch. I’ll definitely be coming back soon.' },
   { name: 'Yegon', text: 'Mima Gardens exceeded my expectations!' },
   { name: 'Alice Wambui', text: 'Amazing experience at Mima Gardens. I mean, the gardens are beautiful, and the food was exceptional. The perfect place for a family gathering.' },
-  { name: 'James Mutiso', text: 'The team went out of their way to ensure everything was perfect for the birthday of my beloved Emmy. My daughter and her friends truly enjoyed it, and so did I.' },
+  { name: 'James Mutiso', text: 'The team went out of their way to ensure everything was perfect for the birthday of my beloved Emmy. My daughter and her friends trully enjoyed, and so did I.' },
 ];
 
 const FeaturesSection = () => {
@@ -84,6 +84,38 @@ const FeaturesSection = () => {
         </div>
 
         <h2 className="text-3xl font-bold text-center my-12">Our Core Values</h2>
-        <div className="flex
-::contentReference[oaicite:0]{index=0}
- 
+        <div className="flex flex-col items-center w-full space-y-6">
+          {coreValues.map((value, index) => (
+            <motion.div
+              key={index}
+              whileHover={{ scale: 1.05, backgroundColor: '#38a169', color: '#fff' }}
+              className="cursor-pointer bg-white p-6 rounded-lg shadow-lg w-full text-center transition duration-300"
+              onClick={() => setSelectedValue(selectedValue === value.title ? null : value.title)}
+            >
+              <h3 className="text-xl font-semibold">{value.title}</h3>
+              {selectedValue === value.title && (
+                <p className="mt-4 text-gray-700">{value.description}</p>
+              )}
+            </motion.div>
+          ))}
+        </div>
+
+        <h2 className="text-3xl font-bold text-center my-12">What Our Customers are Saying About Us</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {testimonials.map((testimonial, index) => (
+            <motion.div
+              key={index}
+              whileHover={{ scale: 1.05 }}
+              className="bg-white p-6 rounded-lg shadow-lg text-center"
+            >
+              <p className="text-gray-600 mb-4">&ldquo;{testimonial.text}&rdquo;</p>
+              <h4 className="font-semibold text-gray-700">{testimonial.name}</h4>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </motion.div>
+  );
+};
+
+export default FeaturesSection;
