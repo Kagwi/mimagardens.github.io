@@ -40,7 +40,7 @@ const coreValues = [
   { title: '🤝 Integrity', description: 'Honesty and transparency are at the heart of everything we do. We uphold strong moral principles and treat every customer with fairness and respect. Our actions and decisions are driven by a deep commitment to ethical business practices.' },
   { title: '💚 Customer Satisfaction', description: 'Our customers are our priority, and we go above and beyond to ensure their needs are met with warmth and efficiency. Every interaction is an opportunity to create a lasting impression, and we pride ourselves on exceeding expectations.' },
   { title: '🌍 Environmental Consciousness', description: 'We take care of our environment by maintaining eco-friendly practices and ensuring our gardens remain beautiful and sustainable. We aim to ensure our clients can bask in the beauty of nature and take a break from the hustle and bustle of modern-day responsibilities.' },
-  { title: '🏆 Innovation', description: 'We constantly improve our services, incorporating modern solutions and creative ideas to provide an exceptional experience for our guests. Do you have an idea of a unique event? Just book an event on time, and we will plan it together.' },
+  { title: '🏆 Innovation', description: 'We constantly improve our services, incorporating modern solutions and creative ideas to provide an exceptional experience for our guests. Do you have an idea of a unique event?, just book an event on time and we will plan it together.' },
   { title: '🏡 Community Engagement', description: 'Mima Gardens actively supports and collaborates with the local community to create a positive impact through partnerships and social initiatives. Our commitment to social responsibility extends beyond our business, fostering meaningful connections with our neighbors.' },
 ];
 
@@ -50,7 +50,7 @@ const testimonials = [
   { name: 'Achieng O.', text: 'I loved the customer service. The staff was warm and welcoming, and the food was top-notch. I’ll definitely be coming back soon.' },
   { name: 'Yegon', text: 'Mima Gardens exceeded my expectations!' },
   { name: 'Alice Wambui', text: 'Amazing experience at Mima Gardens. I mean, the gardens are beautiful, and the food was exceptional. The perfect place for a family gathering.' },
-  { name: 'James Mutiso', text: 'The team went out of their way to ensure everything was perfect for the birthday of my beloved Emmy. My daughter and her friends truly enjoyed, and so did I.' },
+  { name: 'James Mutiso', text: 'The team went out of their way to ensure everything was perfect for the birthday of my beloved Emmy. My daughter and her friends trully enjoyed, and so did I.' },
 ];
 
 const FeaturesSection = () => {
@@ -58,12 +58,56 @@ const FeaturesSection = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
 
   return (
-    <motion.div ref={ref} initial={{ opacity: 0, y: 50 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.8 }} className="py-20 bg-gray-50">
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 50 }}
+      animate={inView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.8 }}
+      className="py-20 bg-gray-50"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl font-bold text-center my-12">Our Features</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {features.map((feature, index) => (
+            <motion.div
+              key={index}
+              whileHover={{ scale: 1.05 }}
+              className="bg-white rounded-lg shadow-lg overflow-hidden"
+            >
+              <img src={feature.image} alt={feature.title} className="w-full h-48 object-cover" />
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
+                <p className="text-gray-600">{feature.description}</p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+        <h2 className="text-3xl font-bold text-center my-12">Our Core Values</h2>
+        <div className="flex flex-col items-center w-full space-y-6">
+          {coreValues.map((value, index) => (
+            <motion.div
+              key={index}
+              whileHover={{ scale: 1.05, backgroundColor: '#38a169', color: '#fff' }}
+              className="cursor-pointer bg-white p-6 rounded-lg shadow-lg w-full text-center transition duration-300"
+              onClick={() => setSelectedValue(selectedValue === value.title ? null : value.title)}
+            >
+              <h3 className="text-xl font-semibold">{value.title}</h3>
+              {selectedValue === value.title && (
+                <p className="mt-4 text-gray-700">{value.description}</p>
+              )}
+            </motion.div>
+          ))}
+        </div>
+
         <h2 className="text-3xl font-bold text-center my-12">What Our Customers are Saying About Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <motion.div key={index} whileHover={{ scale: 1.05 }} className="bg-white p-6 rounded-lg shadow-lg text-center">
+            <motion.div
+              key={index}
+              whileHover={{ scale: 1.05 }}
+              className="bg-white p-6 rounded-lg shadow-lg text-center"
+            >
               <p className="text-gray-600 mb-4">&ldquo;{testimonial.text}&rdquo;</p>
               <h4 className="font-semibold text-gray-700">{testimonial.name}</h4>
             </motion.div>
