@@ -23,9 +23,11 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white shadow-md' : 'bg-transparent'
-    }`}>
+    <nav
+      className={`fixed w-full z-50 transition-all duration-300 ${
+        location.pathname === '/' || isScrolled ? 'bg-white shadow-md' : 'bg-transparent'
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <Link to="/" className="text-2xl font-bold text-emerald-700">
