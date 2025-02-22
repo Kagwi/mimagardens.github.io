@@ -50,8 +50,8 @@ const Contact = () => {
                     <p> Tuesday: 08:00 AM – 11:00 PM </p>
                     <p> Wednesday: 08:00 AM – 11:00 PM </p>
                     <p> Thursday: 08:00 AM – 11:00 PM </p>
-                    <p> Friday: 08:00 AM – 12:00 AM </p>
-                    <p> Saturday: 08:00 AM – 12:00 AM </p>
+                    <p> Friday: 24 hrs </p>
+                    <p> Saturday: 24 hrs </p>
                     <p> Sunday: 08:00 AM – 12:00 AM </p>   
                   </div>
                 </div>
