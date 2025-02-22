@@ -50,21 +50,21 @@ const HeroSection = () => {
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                <div className="text-center text-white px-4">
-                  <motion.h1
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}
-                    className="text-4xl md:text-6xl font-semibold mb-4"
-                  >
-                    Welcome to Mima Gardens
-                  </motion.h1>
-                  <motion.p
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8, delay: 0.2 }}
-                    className="text-xl md:text-2xl mb-8"
-                  >
+              <div className="text-center text-white px-4">
+              <motion.h1
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="text-4xl md:text-6xl font-semibold mb-4 uppercase tracking-widest"
+              >
+      WELCOME TO MIMA GARDENS
+    </motion.h1>
+    <motion.p
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, delay: 0.2 }}
+      className="text-xl md:text-2xl mb-8"
+    >
                     Your Perfect Venue for Unforgettable Events & Lasting Memories
                   </motion.p>
                   <motion.button
