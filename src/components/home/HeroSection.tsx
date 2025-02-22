@@ -25,13 +25,6 @@ const HeroSection = () => {
     window.location.href = createEmailLink(initialData);
   };
 
-  const scrollToContent = () => {
-    window.scrollTo({
-      top: window.innerHeight * 0.8,
-      behavior: 'smooth',
-    });
-  };
-
   const scrollToNextSection = () => {
     const nextSection = document.getElementById('content-section');
     if (nextSection) {
@@ -40,7 +33,7 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="relative w-full h-[80vh] flex flex-col justify-end"> 
+    <div className="relative w-full min-h-[80vh] flex flex-col justify-end">
       <Swiper
         modules={[Navigation, Autoplay]}
         navigation
@@ -89,22 +82,27 @@ const HeroSection = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="flex flex-col justify-center items-center w-full pb-6 gap-y-4">
+
+      {/* Button container with z-index */}
+      <div className="relative z-10 flex flex-col items-center w-full pb-6 gap-y-4">
         <motion.button
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
           onClick={scrollToNextSection}
-          className="bg-transparent border-2 border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-emerald-600 transition-colors"
+          className="bg-white bg-opacity-10 border-2 border-white text-white px-6 py-3 rounded-full 
+                   hover:bg-white hover:text-emerald-600 transition-all duration-300 backdrop-blur-sm
+                   text-lg font-medium"
         >
           Learn more about Mima Gardens
         </motion.button>
+
         <div 
           className="cursor-pointer animate-bounce flex flex-col items-center"
-          onClick={scrollToContent}
+          onClick={scrollToNextSection}
         >
           <ChevronDownIcon size={40} className="text-white" />
-          <span className="text-white text-sm">Scroll Down</span>
+          <span className="text-white text-sm mt-1">Scroll Down</span>
         </div>
       </div>
     </div>
