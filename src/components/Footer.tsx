@@ -64,7 +64,7 @@ const Footer = () => {
               <a href="https://wa.me/254704131385" className="hover:text-emerald-400 transition-colors">
                 <img src="https://green-api.com/en/docs/assets/whatsapp.svg" alt="WhatsApp" className="w-6 h-6" />
               </a>
-              <a href="https://www.youtube.com/channel/UC123456789" className="text-red-500 hover:text-red-700 transition-colors">
+              <a href="https://www.youtube.com/watch?v=_YItXtRJKz0" className="text-red-500 hover:text-red-700 transition-colors">
                 <Youtube size={24} />
               </a>
             </div>
