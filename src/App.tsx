@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -9,13 +8,27 @@ import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 
 function App() {
+  useEffect(() => {
+    // Set favicon dynamically
+    const link = document.createElement('link');
+    link.rel = 'icon';
+    link.type = 'image/png';
+    link.href = 'https://raw.githubusercontent.com/Kagwi/mimagardens.github.io/main/Mima%20Gardens%20Logo.PNG';
+    
+    // Remove existing favicon if any
+    const existingFavicon = document.querySelector("link[rel='icon']");
+    if (existingFavicon) {
+      document.head.removeChild(existingFavicon);
+    }
+
+    document.head.appendChild(link);
+
+    // Set document title
+    document.title = 'Mima Gardens';
+  }, []);
+
   return (
     <Router>
-      <Helmet>
-        {/* Add Mima Gardens logo as favicon */}
-        <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/Kagwi/mimagardens.github.io/main/Mima%20Gardens%20Logo.PNG" />
-        <title>Mima Gardens</title>
-      </Helmet>
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
