@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-12 sm:px-8 lg:px-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Section */}
-          <div className="text-right">
+          <div className="text-left">
             <h3 className="text-2xl font-bold">Mima Gardens & Hotel</h3>
             <p className="text-gray-300">
               Your Perfect Destination for All Types of Events in Maragua, Murang'a County.
