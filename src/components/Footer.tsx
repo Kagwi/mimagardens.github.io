@@ -61,7 +61,7 @@ const Footer = () => {
                 <Instagram size={24} />
               </a>
               <a href="https://www.tiktok.com/@mimagardens" className="hover:text-emerald-400 transition-colors">
-                <img src="https://www.tiktok.com/@mima_gardens_and_hotel?lang=en" alt="TikTok" className="w-6 h-6" />
+                <img src="https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg" alt="TikTok" className="w-6 h-6" />
               </a>
               <a href="https://wa.me/254704131385" className="hover:text-emerald-400 transition-colors">
                 <img src="https://green-api.com/en/docs/assets/whatsapp.svg" alt="WhatsApp" className="w-6 h-6" />
