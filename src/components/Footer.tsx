@@ -12,7 +12,7 @@ const Footer = () => {
             <p className="text-gray-300">
               Your Perfect Destination for All Types of Events in Maragua, Murang'a County.
             </p>
-            <img src="/logo.png" alt="Mima Gardens Logo" className="w-32 h-auto mt-4 mx-auto" />
+            <img src="https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gardens%20Logo.PNG" alt="Mima Gardens Logo" className="w-32 h-auto mt-4 mx-auto" />
           </div>
           
           {/* Contact Info */}
