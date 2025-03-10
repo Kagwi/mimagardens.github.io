@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Instagram, Youtube } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -60,8 +60,8 @@ const Footer = () => {
               <a href="https://www.instagram.com/mimagardens2121?igsh=dG5scGo2NmY4ZTB1" className="hover:text-emerald-400 transition-colors">
                 <Instagram size={24} />
               </a>
-              <a href="#" className="hover:text-emerald-400 transition-colors">
-                <Twitter size={24} />
+              <a href="https://www.tiktok.com/@mimagardens" className="hover:text-emerald-400 transition-colors">
+                <img src="https://www.tiktok.com/@mima_gardens_and_hotel?lang=en" alt="TikTok" className="w-6 h-6" />
               </a>
               <a href="https://wa.me/254704131385" className="hover:text-emerald-400 transition-colors">
                 <img src="https://green-api.com/en/docs/assets/whatsapp.svg" alt="WhatsApp" className="w-6 h-6" />
