@@ -34,7 +34,7 @@ const Navbar = () => {
             <img 
               src="https://raw.githubusercontent.com/Kagwi/mimagardens.github.io/main/Mima%20Gardens%20Logo.PNG" 
               alt="Mima Gardens Logo" 
-              className="w-12 h-12 mr-3" 
+              className="w-14 h-14 mr-2" 
             />
             Mima Gardens
           </Link>
