@@ -6,13 +6,13 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-6 py-12 sm:px-8 lg:px-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Logo Section */}
-          <div className="flex flex-col items-center">
-            <img src="/logo.png" alt="Mima Gardens Logo" className="w-32 h-auto mb-4" />
-            <h3 className="text-2xl font-bold text-center">Mima Gardens & Hotel</h3>
-            <p className="text-gray-300 text-center">
+          {/* About Section */}
+          <div className="text-center">
+            <h3 className="text-2xl font-bold">Mima Gardens & Hotel</h3>
+            <p className="text-gray-300">
               Your Perfect Destination for All Types of Events in Maragua, Murang'a County.
             </p>
+            <img src="/logo.png" alt="Mima Gardens Logo" className="w-32 h-auto mt-4 mx-auto" />
           </div>
           
           {/* Contact Info */}
@@ -64,7 +64,7 @@ const Footer = () => {
               <a href="https://wa.me/254704131385" className="hover:text-emerald-400 transition-colors">
                 <img src="https://green-api.com/en/docs/assets/whatsapp.svg" alt="WhatsApp" className="w-6 h-6" />
               </a>
-              <a href="https://www.youtube.com/watch?v=_YItXtRJKz0" className="hover:text-emerald-400 transition-colors">
+              <a href="https://www.youtube.com/channel/UC123456789" className="text-red-500 hover:text-red-700 transition-colors">
                 <Youtube size={24} />
               </a>
             </div>
