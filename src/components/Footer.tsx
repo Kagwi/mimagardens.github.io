@@ -1,17 +1,17 @@
 import React from 'react';
-import { Phone, Mail, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
 
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-6 py-12 sm:px-8 lg:px-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* About Section */}
-          <div>
-            <h3 className="text-2xl font-bold mb-4">Mima Gardens & Hotel</h3>
-            <p className="text-gray-300">
-              We are your Perfect Destination for All Types of Events in Maragua,
-              Murang'a County.
+          {/* Logo Section */}
+          <div className="flex flex-col items-center">
+            <img src="/logo.png" alt="Mima Gardens Logo" className="w-32 h-auto mb-4" />
+            <h3 className="text-2xl font-bold text-center">Mima Gardens & Hotel</h3>
+            <p className="text-gray-300 text-center">
+              Your Perfect Destination for All Types of Events in Maragua, Murang'a County.
             </p>
           </div>
           
@@ -45,7 +45,6 @@ const Footer = () => {
               <p>Friday: 24 hrs</p>
               <p>Saturday: 24 hrs</p>
               <p>Sunday: 08:00 AM – 12:00 AM</p>
-
             </div>
           </div>
           
@@ -64,6 +63,9 @@ const Footer = () => {
               </a>
               <a href="https://wa.me/254704131385" className="hover:text-emerald-400 transition-colors">
                 <img src="https://green-api.com/en/docs/assets/whatsapp.svg" alt="WhatsApp" className="w-6 h-6" />
+              </a>
+              <a href="https://www.youtube.com/watch?v=_YItXtRJKz0" className="hover:text-emerald-400 transition-colors">
+                <Youtube size={24} />
               </a>
             </div>
             <h4 className="text-lg font-semibold mb-2">Quick Links</h4>
