@@ -30,16 +30,14 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          <div className="flex items-center">
+          <Link to="/" className="flex items-center text-2xl font-bold text-emerald-700">
             <img 
               src="https://raw.githubusercontent.com/Kagwi/mimagardens.github.io/main/Mima%20Gardens%20Logo.PNG" 
               alt="Mima Gardens Logo" 
-              className="w-10 h-10 mr-2" 
+              className="w-12 h-12 mr-3" 
             />
-            <Link to="/" className="text-2xl font-bold text-emerald-700">
-              Mima Gardens
-            </Link>
-          </div>
+            Mima Gardens
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
