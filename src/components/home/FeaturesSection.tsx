@@ -45,6 +45,9 @@ const coreValues = [
 ];
 
 const testimonials = [
+  { name: 'Owen Francis Kamau', text: 'Wow wow wow.The most serene, hospitable and cool Gardens I have ever been too. One of a kind services, Great food and the best meeting point,for your meeting purposes. I absolutely loved 💕 it.' },
+  { name: 'Susan Kinyanjui', text: 'This is a great stopover if you are going to/from Muranga or Nanyuki via Nyeri. The owner was very welcoming, the service is great, and they have nice big gardens to stretch ones legs.'},
+  { name: 'Boniface Mwaura', text: 'Great place for team building activities. Beautiful gardens, tasty meals, serene envinment.' },
   { name: 'Wanjiku Kamau', text: 'Mima Gardens is an absolute gem! The gardens are breathtaking, and the entire place feels so peaceful, yet it is just next to a main road. Perfect for a getaway.' },
   { name: 'Mr. Mutua', text: 'I hosted my wedding at Mima Gardens, and everything was perfect. The staff was professional, and the ambiance was stunning. Highly recommend!' },
   { name: 'Achieng O.', text: 'I loved the customer service. The staff was warm and welcoming, and the food was top-notch. I’ll definitely be coming back soon.' },
