@@ -15,6 +15,10 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
@@ -50,6 +54,7 @@ const Navbar = () => {
                     ? 'text-emerald-600 font-semibold'
                     : 'text-gray-600 hover:text-emerald-500'
                 } transition-colors duration-200`}
+                onClick={() => window.scrollTo(0, 0)}
               >
                 {link.name}
               </Link>
@@ -80,7 +85,10 @@ const Navbar = () => {
                       ? 'text-emerald-600 font-semibold'
                       : 'text-gray-600'
                   } block px-3 py-2 rounded-md text-base hover:bg-emerald-50`}
-                  onClick={() => setIsOpen(false)}
+                  onClick={() => {
+                    setIsOpen(false);
+                    window.scrollTo(0, 0);
+                  }}
                 >
                   {link.name}
                 </Link>
