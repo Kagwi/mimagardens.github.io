@@ -6,13 +6,15 @@ const menuSections = [
     name: "Food",
     items: [
       { name: "Nyama Choma", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0007.jpg?raw=true" },
+      { name: "Fish Varieties", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/Fish.jpg?raw=true" },
       { name: "Afro Platter", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0056-2.jpg?raw=true" },
+      { name: "Diverse Assortment", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/And%20Many%20Many%20More.jpg?raw=true" },
     ]
   },
   {
     name: "Desserts & Salads",
     items: [
-      { name: "Desserts", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0050-2.jpg?raw=true" },
+      { name: "Desserts", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/Ice%20Cream.jpg?raw=true" },
       { name: "Appetizer Salads", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0061-2.jpg?raw=true" },
     ]
   },
