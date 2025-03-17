@@ -9,7 +9,7 @@ const Contact = () => {
     <div className="pt-16">
       <section 
         className="py-16 bg-cover bg-center" 
-        style={{ backgroundImage: "url('https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0648.jpg?raw=true')" }}
+        style={{ backgroundImage: "url('https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0669.jpg?raw=true')" }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-white bg-opacity-80 p-8 rounded-lg shadow-lg">
           <motion.div
