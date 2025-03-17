@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React from 'react';  
 import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
@@ -33,38 +33,38 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="relative w-full min-h-[80vh] flex flex-col justify-end">
+    <div className="relative w-full h-screen flex flex-col justify-end overflow-hidden">
       <Swiper
         modules={[Navigation, Autoplay]}
         navigation
         autoplay={{ delay: 5000 }}
         loop
-        className="w-full h-full absolute top-0"
+        className="w-full h-screen absolute top-0"
       >
         {heroImages.map((image, index) => (
           <SwiperSlide key={index}>
-            <div className="w-full h-full flex items-center justify-center">
+            <div className="w-full h-screen flex items-center justify-center">
               <img 
                 src={image} 
                 alt={`Slide ${index + 1}`} 
-                className="w-full h-full object-cover"
+                className="w-full h-screen object-cover"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-              <div className="text-center text-white px-4">
-              <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              className="text-4xl md:text-6xl font-semibold mb-4 uppercase tracking-widest"
-              >
-      WELCOME TO MIMA GARDENS
-    </motion.h1>
-    <motion.p
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.8, delay: 0.2 }}
-      className="text-xl md:text-2xl mb-8"
-    >
+              <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-center text-white px-4">
+                <div>
+                  <motion.h1
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8 }}
+                    className="text-4xl md:text-6xl font-semibold mb-4 uppercase tracking-widest"
+                  >
+                    WELCOME TO MIMA GARDENS
+                  </motion.h1>
+                  <motion.p
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.8, delay: 0.2 }}
+                    className="text-xl md:text-2xl mb-8"
+                  >
                     Your Perfect Venue for Unforgettable Events & Lasting Memories
                   </motion.p>
                   <motion.button
@@ -82,7 +82,7 @@ const HeroSection = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-
+      
       {/* Learn More Button */}
       <div className="relative z-10 flex flex-col items-center w-full pb-6">
         <motion.button
@@ -90,20 +90,15 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
           onClick={scrollToNextSection}
-          className="bg-white bg-opacity-10 border-2 border-white text-white px-6 py-3 rounded-full 
-                   hover:bg-white hover:text-emerald-600 transition-all duration-300 backdrop-blur-sm
-                   text-lg font-medium mb-4"
+          className="bg-white bg-opacity-10 border-2 border-white text-white px-6 py-3 rounded-full hover:bg-white hover:text-emerald-600 transition-all duration-300 backdrop-blur-sm text-lg font-medium mb-4"
         >
           Learn more about Mima Gardens
         </motion.button>
       </div>
-
-      {/* Scroll Down Button - Now positioned absolutely at the bottom */}
-      <div className="absolute bottom-0 left-0 w-full flex justify-center pb-4 z-10">
-        <div 
-          className="cursor-pointer animate-bounce flex flex-col items-center"
-          onClick={scrollToNextSection}
-        >
+      
+      {/* Scroll Down Button */}
+      <div className="absolute bottom-6 left-0 w-full flex justify-center z-10">
+        <div className="cursor-pointer animate-bounce flex flex-col items-center" onClick={scrollToNextSection}>
           <ChevronDownIcon size={40} className="text-white" />
           <span className="text-white text-sm mt-1">Scroll Down</span>
         </div>
