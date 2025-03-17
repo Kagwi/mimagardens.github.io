@@ -40,7 +40,7 @@ const Navbar = () => {
               alt="Mima Gardens Logo" 
               className="w-14 h-14 mr-2" 
             />
-            Mima Gardens
+            MIMA GARDENS & RESTAURANT
           </Link>
 
           {/* Desktop Navigation */}
