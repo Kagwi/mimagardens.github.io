@@ -25,14 +25,14 @@ const Contact = () => {
                   <Phone className="text-emerald-600" size={24} />
                   <div>
                     <h3 className="font-semibold">Phone</h3>
-                    <p>+254 704131385</p>
+                    <a href="tel:+254704131385" className="text-blue-600 hover:text-blue-800">+254 704131385</a>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Mail className="text-emerald-600" size={24} />
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p>mimagardens2121ltd@gmail.com</p>
+                    <a href="mailto:mimagardens2121ltd@gmail.com" className="text-blue-600 hover:text-blue-800">mimagardens2121ltd@gmail.com</a>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
