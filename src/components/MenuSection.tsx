@@ -8,7 +8,7 @@ const menuSections = [
       { name: "Nyama Choma", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0007.jpg?raw=true" },
       { name: "Fish Varieties", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/Fish.jpg?raw=true" },
       { name: "Afro Platter", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0056-2.jpg?raw=true" },
-      { name: "Diverse Assortment", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/And%20Many%20Many%20More.jpg?raw=true" },
+      { name: "All Meat Stews", image: "https://raw.githubusercontent.com/Kagwi/mimagardens.github.io/refs/heads/main/Stew%20Varieties.jpg" },
     ]
   },
   {
