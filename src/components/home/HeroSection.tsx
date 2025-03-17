@@ -83,14 +83,14 @@ const HeroSection = () => {
         ))}
       </Swiper>
       
-      {/* Learn More Button */}
-      <div className="relative z-10 flex flex-col items-center w-full pb-6">
+      {/* Learn More Button - Ensure Visibility on All Devices */}
+      <div className="relative z-10 flex flex-col items-center w-full pb-6 md:pb-12">
         <motion.button
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
           onClick={scrollToNextSection}
-          className="bg-white bg-opacity-10 border-2 border-white text-white px-6 py-3 rounded-full hover:bg-white hover:text-emerald-600 transition-all duration-300 backdrop-blur-sm text-lg font-medium mb-4"
+          className="bg-white bg-opacity-10 border-2 border-white text-white px-6 py-3 rounded-full hover:bg-white hover:text-emerald-600 transition-all duration-300 backdrop-blur-sm text-lg font-medium mb-4 visible md:visible"
         >
           Learn more about Mima Gardens
         </motion.button>
