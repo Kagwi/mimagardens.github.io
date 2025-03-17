@@ -1,6 +1,5 @@
 import React, { FormEvent } from 'react';
 import { Calendar, Users, Clock } from 'lucide-react';
-import { createEmailLink } from '../../utils/emailUtils';
 
 const EventBookingForm = () => {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
@@ -14,7 +13,13 @@ const EventBookingForm = () => {
       requirements: formData.get('requirements') as string,
     };
     
-    window.location.href = createEmailLink(data);
+    const email = 'mimagardens2121ltd@gmail.com';
+    const subject = encodeURIComponent('Event Booking Request');
+    const body = encodeURIComponent(
+      `Event Type: ${data.eventType}\nNumber of Guests: ${data.guests}\nDate: ${data.date}\nTime: ${data.time}\nAdditional Requirements: ${data.requirements}`
+    );
+    
+    window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
   };
 
   return (
