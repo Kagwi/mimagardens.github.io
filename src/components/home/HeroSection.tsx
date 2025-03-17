@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
-import { createEmailLink } from '../../utils/emailUtils';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { ChevronDownIcon } from 'lucide-react';
@@ -18,11 +17,7 @@ const heroImages = [
 
 const HeroSection = () => {
   const handleBookNow = () => {
-    const initialData = {
-      inquiry: 'General booking inquiry',
-      message: 'I would like to book accommodation at Mima Gardens.',
-    };
-    window.location.href = createEmailLink(initialData);
+    window.location.href = "mailto:mimagardens2121ltd@gmail.com?subject=General%20booking%20inquiry&body=I%20would%20like%20to%20book%20accommodation%20at%20Mima%20Gardens.";
   };
 
   const scrollToNextSection = () => {
