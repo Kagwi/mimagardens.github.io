@@ -46,14 +46,14 @@ const FeaturesSection = () => {
             </motion.div>
           ))}
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
           {fullWidthFeatures.map((feature, index) => (
             <motion.div
               key={index}
               whileHover={{ scale: 1.05 }}
               className="bg-white rounded-lg shadow-lg overflow-hidden w-full"
             >
-              <img src={feature.image} alt={feature.title} className="w-full h-[500px] object-cover" />
+              <img src={feature.image} alt={feature.title} className="w-full h-[450px] object-cover p-4" />
               <div className="p-6 text-center">
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
               </div>
