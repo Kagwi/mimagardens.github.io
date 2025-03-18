@@ -8,7 +8,7 @@ const features = [
   { title: 'Your Favorite Local Cuisine', description: 'Our restaurant serves delicious, freshly prepared local and international dishes in a serene environment. We focus on quality ingredients and exceptional flavors, making every meal a delightful experience.', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0020-2.jpg?raw=true' },
   { title: 'Sophisticated Bar Experience', description: 'Enjoy a sophisticated bar experience with a wide range of drinks, including signature cocktails, fine wines, and premium spirits. The ambiance is stylish and relaxing, perfect for winding down after a long day.', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0526.jpg?raw=true' },
   { title: 'Excellent Customer Service', description: 'At Mima Gardens, customer satisfaction is our top priority. Our dedicated team provides friendly, professional, and attentive service to ensure your visit is memorable and enjoyable.', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0496.jpg?raw=true' },
-  { title: 'Outdoor Dining', description: '', image:'https://raw.githubusercontent.com/Kagwi/mimagardens.github.io/refs/heads/main/Outdoor%20Dining.jpg' },
+  { title: 'Outdoor Dining', description: 'Enjoy a delightful dining experience in our spacious outdoor setting at Mima Gardens. With a relaxed ambiance and fresh air, it’s the perfect place to share a memorable meal with friends and family.', image:'https://raw.githubusercontent.com/Kagwi/mimagardens.github.io/refs/heads/main/Outdoor%20Dining.jpg' },
 ];
 
 const fullWidthFeatures = [
