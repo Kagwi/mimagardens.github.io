@@ -50,6 +50,18 @@ const images = [
     url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0468.jpg?raw=true',
     category: 'Work Online in Serenity',
   },
+  {
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Buffet.jpg?raw=true',
+    category: 'Buffet',
+  },
+  {
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Delicious%20Chicken.jpg?raw=true',
+    category: 'Delicious Chicken',
+  },
+  {
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Fruits%20and%20Salad.jpg?raw=true',
+    category: 'Desserts & Appetizers',
+  },
 ];
 
 const ImageGallery = () => {
