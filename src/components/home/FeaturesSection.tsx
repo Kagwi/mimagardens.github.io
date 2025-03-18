@@ -9,8 +9,8 @@ const features = [
   { title: 'Your Favorite Local Cuisine', description: 'Our restaurant serves delicious, freshly prepared local and international dishes in a serene environment. We focus on quality ingredients and exceptional flavors, making every meal a delightful experience.', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0020-2.jpg?raw=true' },
   { title: 'Sophisticated Bar Experience', description: 'Enjoy a sophisticated bar experience with a wide range of drinks, including signature cocktails, fine wines, and premium spirits. The ambiance is stylish and relaxing, perfect for winding down after a long day.', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0526.jpg?raw=true' },
   { title: 'Excellent Customer Service', description: 'At Mima Gardens, customer satisfaction is our top priority. Our dedicated team provides friendly, professional, and attentive service to ensure your visit is memorable and enjoyable.', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0496.jpg?raw=true' },
-  { title: 'Swimming Pool Escape', description: '', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0659.jpg?raw=true', layout: 'vertical' },
-  { title: 'Outdoor Dining', description: '', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0483.jpg?raw=true', layout: 'vertical' },
+  { title: 'Swimming Pool Escape', description: '', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0659.jpg?raw=true', layout: 'full' },
+  { title: 'Outdoor Dining', description: '', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0483.jpg?raw=true', layout: 'full' },
 ];
 
 const FeaturesSection = () => {
@@ -33,9 +33,9 @@ const FeaturesSection = () => {
             <motion.div
               key={index}
               whileHover={{ scale: 1.05 }}
-              className={`bg-white rounded-lg shadow-lg overflow-hidden ${feature.layout === 'vertical' ? 'flex flex-col items-center text-center' : ''}`}
+              className={`bg-white rounded-lg shadow-lg overflow-hidden ${feature.layout === 'full' ? 'w-full h-screen flex flex-col items-center text-center' : ''}`}
             >
-              <img src={feature.image} alt={feature.title} className={`w-full ${feature.layout === 'vertical' ? 'h-60 object-cover' : 'h-48 object-cover'}`} />
+              <img src={feature.image} alt={feature.title} className={`w-full ${feature.layout === 'full' ? 'h-full object-cover' : 'h-48 object-cover'}`} />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
                 <p className="text-gray-600">{feature.description}</p>
