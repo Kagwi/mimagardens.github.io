@@ -33,6 +33,16 @@ const features = [
     description: 'At Mima Gardens, customer satisfaction is our top priority. Our dedicated team provides friendly, professional, and attentive service to ensure your visit is memorable and enjoyable.',
     image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0496.jpg?raw=true',
   },
+  {
+    title: 'Swimming Pool Escape',
+    description: '',
+    image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0659.jpg?raw=true',
+  },
+  {
+    title: 'Outdoor Dining',
+    description: '',
+    image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0483.jpg?raw=true',
+  },
 ];
 
 const coreValues = [
