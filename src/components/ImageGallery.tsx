@@ -68,12 +68,12 @@ const images = [
     category: 'Milkshakes',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gate.jpg?raw=true',
-    category: 'Entrance',
-  },
-  {
     url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Harambee,%20Ruracio,%20Baby%20Showers...,.jpg?raw=true',
     category: 'Harambees, Ruracios, etc.',
+  },
+  {
+    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gate.jpg?raw=true',
+    category: 'Entrance',
   },
 ];
 
