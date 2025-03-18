@@ -43,11 +43,6 @@ const features = [
     description: '',
     image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0483.jpg?raw=true',
   },
-  {
-    title: '',
-    description: '',
-    image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0437.jpg?raw=true',
-  },
 ];
 
 const coreValues = [
