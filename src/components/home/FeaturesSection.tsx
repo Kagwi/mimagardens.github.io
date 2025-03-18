@@ -16,7 +16,17 @@ const fullWidthFeatures = [
   { title: 'Beautiful Gardens', description: 'Mima Gardens features vibrant, well-tended gardens that surround you with the comforting warmth of nature. The rich greenery and peaceful atmosphere invite you to unwind, relax, and enjoy the soothing beauty of the natural world.', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0659.jpg?raw=true' },
 ];
 
+const coreValues = [
+  { title: '🌟 Excellence', description: 'We are committed to delivering top-tier services and ensuring that every guest experiences the highest level of hospitality and professionalism.' },
+  { title: '🤝 Integrity', description: 'Honesty and transparency are at the heart of everything we do. We uphold strong moral principles and treat every customer with fairness and respect.' },
+  { title: '💚 Customer Satisfaction', description: 'Our customers are our priority, and we go above and beyond to ensure their needs are met with warmth and efficiency.' },
+  { title: '🌍 Environmental Consciousness', description: 'We take care of our environment by maintaining eco-friendly practices and ensuring our gardens remain beautiful and sustainable.' },
+  { title: '🏆 Innovation', description: 'We constantly improve our services, incorporating modern solutions and creative ideas to provide an exceptional experience for our guests.' },
+  { title: '🏡 Community Engagement', description: 'Mima Gardens actively supports and collaborates with the local community to create a positive impact through partnerships and social initiatives.' },
+];
+
 const FeaturesSection = () => {
+  const [selectedValue, setSelectedValue] = useState(null);
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
 
   return (
@@ -32,11 +42,7 @@ const FeaturesSection = () => {
         <h2 className="text-3xl font-bold text-center my-12">Our Features</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <motion.div
-              key={index}
-              whileHover={{ scale: 1.05 }}
-              className="bg-white rounded-lg shadow-lg overflow-hidden"
-            >
+            <motion.div key={index} whileHover={{ scale: 1.05 }} className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img src={feature.image} alt={feature.title} className="w-full h-48 object-cover" />
               <div className="p-6 text-center">
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
@@ -45,18 +51,18 @@ const FeaturesSection = () => {
             </motion.div>
           ))}
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
-          {fullWidthFeatures.map((feature, index) => (
-            <motion.div
-              key={index}
-              whileHover={{ scale: 1.05 }}
-              className="bg-white rounded-lg shadow-lg overflow-hidden w-full"
-            >
-              <img src={feature.image} alt={feature.title} className="w-full h-[450px] object-cover p-4" />
-              <div className="p-6 text-center">
-                <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
-                <p className="text-gray-600">{feature.description}</p>
-              </div>
+        
+        <h2 className="text-3xl font-bold text-center my-12">Our Core Values</h2>
+        <div className="flex flex-col items-center w-full space-y-6">
+          {coreValues.map((value, index) => (
+            <motion.div key={index} whileHover={{ scale: 1.05 }} className="w-full bg-white rounded-lg shadow-lg overflow-hidden">
+              <button onClick={() => setSelectedValue(selectedValue === value.title ? null : value.title)} className="w-full px-6 py-4 flex justify-between items-center focus:outline-none focus:ring-2 focus:ring-green-500">
+                <h3 className="text-xl font-semibold text-left">{value.title}</h3>
+                <svg className={`w-6 h-6 transform transition-transform ${selectedValue === value.title ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {selectedValue === value.title && <div className="px-6 pb-4 pt-2 border-t border-gray-100"><p className="text-gray-600">{value.description}</p></div>}
             </motion.div>
           ))}
         </div>
