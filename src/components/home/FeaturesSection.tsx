@@ -33,10 +33,10 @@ const FeaturesSection = () => {
             <motion.div
               key={index}
               whileHover={{ scale: 1.05 }}
-              className={`bg-white rounded-lg shadow-lg overflow-hidden ${feature.layout === 'full' ? 'w-full h-screen flex flex-col items-center text-center' : ''}`}
+              className={`bg-white rounded-lg shadow-lg overflow-hidden ${feature.layout === 'full' ? 'col-span-3 w-full' : ''}`}
             >
-              <img src={feature.image} alt={feature.title} className={`w-full ${feature.layout === 'full' ? 'h-full object-cover' : 'h-48 object-cover'}`} />
-              <div className="p-6">
+              <img src={feature.image} alt={feature.title} className={`w-full ${feature.layout === 'full' ? 'h-96 object-cover' : 'h-48 object-cover'}`} />
+              <div className="p-6 text-center">
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
                 <p className="text-gray-600">{feature.description}</p>
               </div>
