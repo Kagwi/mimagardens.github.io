@@ -13,7 +13,7 @@ const features = [
 
 const fullWidthFeatures = [
   { title: 'Swimming Pool Escape', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0659.jpg?raw=true' },
-  { title: 'Beautiful Gardens', description:'Mima Gardens features vibrant, well-tended gardens that surround you with the comforting warmth of nature. The rich greenery and peaceful atmosphere invite you to unwind, relax, and enjoy the soothing beauty of the natural world.', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0659.jpg?raw=true', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0483.jpg?raw=true' },
+  { title: 'Beautiful Gardens', description:'Mima Gardens features vibrant, well-tended gardens that surround you with the comforting warmth of nature. The rich greenery and peaceful atmosphere invite you to unwind, relax, and enjoy the soothing beauty of the natural world.', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0659.jpg?raw=true',},
 ];
 
 const FeaturesSection = () => {
