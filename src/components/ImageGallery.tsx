@@ -62,6 +62,19 @@ const images = [
     url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Fruits%20and%20Salad.jpg?raw=true',
     category: 'Desserts & Appetizers',
   },
+  
+  {
+    url: '',
+    category: '',
+  },
+  {
+    url: '',
+    category: '',
+  },
+  {
+    url: '',
+    category: '',
+  },
 ];
 
 const ImageGallery = () => {
