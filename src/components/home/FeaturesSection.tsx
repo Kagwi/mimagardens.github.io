@@ -8,16 +8,15 @@ const features = [
   { title: 'Your Favorite Local Cuisine', description: 'Our restaurant serves delicious, freshly prepared local and international dishes in a serene environment. We focus on quality ingredients and exceptional flavors, making every meal a delightful experience.', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0020-2.jpg?raw=true' },
   { title: 'Sophisticated Bar Experience', description: 'Enjoy a sophisticated bar experience with a wide range of drinks, including signature cocktails, fine wines, and premium spirits. The ambiance is stylish and relaxing, perfect for winding down after a long day.', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0526.jpg?raw=true' },
   { title: 'Excellent Customer Service', description: 'At Mima Gardens, customer satisfaction is our top priority. Our dedicated team provides friendly, professional, and attentive service to ensure your visit is memorable and enjoyable.', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0496.jpg?raw=true' },
-  { title: 'Outdoor Dining', description: 'Enjoy a delightful dining experience in our spacious outdoor setting at Mima Gardens. With a relaxed ambiance and fresh air, it’s the perfect place to share a memorable meal with friends and family.', image:'https://raw.githubusercontent.com/Kagwi/mimagardens.github.io/refs/heads/main/Outdoor%20Dining.jpg' },
+  { title: 'Outdoor Dining', description: 'Enjoy a delightful dining experience in our spacious outdoor setting at Mima Gardens. With a relaxed ambiance and fresh air, it’s the perfect place to share a memorable meal with friends and family.', image: 'https://raw.githubusercontent.com/Kagwi/mimagardens.github.io/refs/heads/main/Outdoor%20Dining.jpg' },
 ];
 
 const fullWidthFeatures = [
   { title: 'Swimming Pool Escape', description: 'Dive into relaxation at Mima Gardens’ spacious swimming pool. With crystal-clear water and a calm atmosphere, it’s the perfect retreat for a refreshing and rejuvenating experience.', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Swimming%20Pool.jpg?raw=true' },
-  { title: 'Beautiful Gardens', description:'Mima Gardens features vibrant, well-tended gardens that surround you with the comforting warmth of nature. The rich greenery and peaceful atmosphere invite you to unwind, relax, and enjoy the soothing beauty of the natural world.', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0659.jpg?raw=true',},
+  { title: 'Beautiful Gardens', description: 'Mima Gardens features vibrant, well-tended gardens that surround you with the comforting warmth of nature. The rich greenery and peaceful atmosphere invite you to unwind, relax, and enjoy the soothing beauty of the natural world.', image: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0659.jpg?raw=true' },
 ];
 
 const FeaturesSection = () => {
-  const [selectedValue, setSelectedValue] = useState(null);
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
 
   return (
@@ -56,6 +55,7 @@ const FeaturesSection = () => {
               <img src={feature.image} alt={feature.title} className="w-full h-[450px] object-cover p-4" />
               <div className="p-6 text-center">
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
+                <p className="text-gray-600">{feature.description}</p>
               </div>
             </motion.div>
           ))}
