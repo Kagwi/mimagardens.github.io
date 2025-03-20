@@ -4,5 +4,5 @@ export const createEmailLink = (data: Record<string, string>) => {
     .map(([key, value]) => `${key}: ${value}`)
     .join('\n'));
   
-  return `mailto:mimagardens2121ltd@gmail.com?subject=${subject}&body=${body}`;
+  return `mailto:mimagardens2121@gmail.com?subject=${subject}&body=${body}`;
 };
