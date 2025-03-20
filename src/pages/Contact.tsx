@@ -32,7 +32,7 @@ const Contact = () => {
                   <Mail className="text-emerald-600" size={24} />
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <a href="mailto:mimagardens2121ltd@gmail.com" className="text-black hover:text-emerald-600">mimagardens2121ltd@gmail.com</a>
+                    <a href="mailto:mimagardens2121@gmail.com" className="text-black hover:text-emerald-600">mimagardens2121@gmail.com</a>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
