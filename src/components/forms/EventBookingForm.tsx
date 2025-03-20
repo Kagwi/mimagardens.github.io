@@ -13,7 +13,7 @@ const EventBookingForm = () => {
       requirements: formData.get('requirements') as string,
     };
     
-    const email = 'mimagardens2121ltd@gmail.com';
+    const email = 'mimagardens2121@gmail.com';
     const subject = encodeURIComponent('Event Booking Request');
     const body = encodeURIComponent(
       `Event Type: ${data.eventType}\nNumber of Guests: ${data.guests}\nDate: ${data.date}\nTime: ${data.time}\nAdditional Requirements: ${data.requirements}`
