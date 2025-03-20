@@ -17,7 +17,7 @@ const heroImages = [
 
 const HeroSection = () => {
   const handleBookNow = () => {
-    window.location.href = "mailto:mimagardens2121ltd@gmail.com?subject=General%20booking%20inquiry&body=I%20would%20like%20to%20book%20accommodation%20at%20Mima%20Gardens.";
+    window.location.href = "mailto:mimagardens2121@gmail.com?subject=General%20booking%20inquiry&body=I%20would%20like%20to%20book%20accommodation%20at%20Mima%20Gardens.";
   };
 
   const scrollToNextSection = () => {
