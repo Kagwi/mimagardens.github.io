@@ -27,7 +27,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Mail size={18} className="mr-3" />
-                <span className="break-words">mimagardens2121ltd@gmail.com</span>
+                <span className="break-words">mimagardens2121@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <MapPin size={18} className="mr-3" />
@@ -40,13 +40,13 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Opening Hours</h4>
             <div className="text-gray-300 space-y-1">
-              <p>Monday: 08:00 AM – 11:00 PM</p>
-              <p>Tuesday: 08:00 AM – 11:00 PM</p>
-              <p>Wednesday: 08:00 AM – 11:00 PM</p>
-              <p>Thursday: 08:00 AM – 11:00 PM</p>
+              <p>Monday: 06:30 AM – 11:00 PM</p>
+              <p>Tuesday: 06:30 AM – 11:00 PM</p>
+              <p>Wednesday: 06:30 AM – 11:00 PM</p>
+              <p>Thursday: 06:30 AM – 11:00 PM</p>
               <p>Friday: 24 hrs</p>
               <p>Saturday: 24 hrs</p>
-              <p>Sunday: 08:00 AM – 12:00 AM</p>
+              <p>Sunday: 06:30 AM – 12:00 AM</p>
             </div>
           </div>
           
