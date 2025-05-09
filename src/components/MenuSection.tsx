@@ -14,8 +14,8 @@ const menuSections = [
   {
     name: "Desserts & Salads",
     items: [
-      { name: "Desserts", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/Ice%20Cream.jpg?raw=true" },
-      { name: "Appetizer Salads", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0061-2.jpg?raw=true" },
+      { name: "Desserts", image: "/Mima-Gardens-Photos/highlights/_SJS0380.jpg" },
+      { name: "Appetizer Salads", image: "/Mima-Gardens-Photos/highlights/_SJS0050-2.jpg" },
     ]
   },
   {
@@ -24,15 +24,15 @@ const menuSections = [
       {
         name: "Alcoholic",
         items: [
-          { name: "Signature Cocktails", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0520.jpg?raw=true" },
-          { name: "Classic Wines and Strong Drinks", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0498.jpg?raw=true" },
+          { name: "Signature Cocktails", image: "/Mima-Gardens-Photos/highlights/_SJS0521.jpg" },
+          { name: "Classic Wines and Strong Drinks", image: "/Mima-Gardens-Photos/highlights/_SJS0498.jpg" },
         ]
       },
       {
         name: "Non-Alcoholic",
         items: [
-          { name: "Juices", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0071-2.jpg?raw=true" },
-          { name: "Milkshakes", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0076-2.jpg?raw=true" },
+          { name: "Juices", image: "/Mima-Gardens-Photos/highlights/_SJS0071-2.jpg" },
+          { name: "Milkshakes", image: "/Mima-Gardens-Photos/highlights/_SJS0076-2.jpg" },
         ]
       }
     ]
