@@ -52,7 +52,7 @@ const About = () => {
                 className="w-full h-64 rounded-lg shadow-xl object-cover hover:scale-105 transition-transform duration-300"
               />
               <img
-                src="/Mima-Gardens-Photos/highlights/_SJS0714.jpg"
+                src="/Mima-Gardens-Photos/highlights/_SJS0718.jpg"
                 alt="Mima Gardens 2"
                 className="w-full h-64 rounded-lg shadow-xl object-cover hover:scale-105 transition-transform duration-300"
               />
