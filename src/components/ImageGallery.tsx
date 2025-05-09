@@ -3,76 +3,76 @@ import { motion } from 'framer-motion';
 
 const images = [
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0489.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0489.jpg',
     category: 'Sips & Stories',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0492.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0492.jpg',
     category: 'Coffee Dates',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0433.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0448.jpg',
     category: 'Outdoor Relaxation with Family',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0438.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0452.jpg',
     category: 'Beautiful Gardens',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0657.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0480.jpg',
     category: 'Corporate Events, Weddings & Baby Showers',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0669.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0673.jpg',
     category: 'Swimming Pool Escape',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0686.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0687.jpg',
     category: 'Samburu Chillout Zone',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0703.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0703.jpg',
     category: 'Samburu Lounge',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0696.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0696.jpg',
     category: 'All-Season Gazebos',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0652.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0475.jpg',
     category: 'Enjoy Nature',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0475.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0657.jpg',
     category: 'Joyful Social Getaways',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0468.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0468.jpg',
     category: 'Work Online in Serenity',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Buffet.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0321.jpg',
     category: 'Buffet',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Delicious%20Chicken.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0341.jpg',
     category: 'Delicious Chicken',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Fruits%20and%20Salad.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0366.jpg',
     category: 'Desserts & Appetizers',
   },
   
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Milkshake.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0076-2.jpg',
     category: 'Milkshakes',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Harambee,%20Ruracio,%20Baby%20Showers...,.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0355.jpg',
     category: 'Harambees, Ruracios, etc.',
   },
   {
-    url: 'https://github.com/Kagwi/mimagardens.github.io/blob/main/Mima%20Gate.jpg?raw=true',
+    url: '/Mima-Gardens-Photos/highlights/_SJS0648.jpg',
     category: 'Entrance',
   },
 ];
