@@ -5,10 +5,10 @@ const menuSections = [
   {
     name: "Food",
     items: [
-      { name: "Nyama Choma", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0007.jpg?raw=true" },
-      { name: "Fish Varieties", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/Fish.jpg?raw=true" },
-      { name: "Afro Platter", image: "https://github.com/Kagwi/mimagardens.github.io/blob/main/_SJS0056-2.jpg?raw=true" },
-      { name: "All Meat Stews", image: "https://raw.githubusercontent.com/Kagwi/mimagardens.github.io/refs/heads/main/Stew%20Varieties.jpg" },
+      { name: "Nyama Choma", image: "/Mima-Gardens-Photos/highlights/_SJS0006.jpg" },
+      { name: "Fish Varieties", image: "/Mima-Gardens-Photos/highlights/_SJS0392.jpg" },
+      { name: "Afro Platter", image: "/Mima-Gardens-Photos/highlights/_SJS0056-2.jpg" },
+      { name: "All Meat Stews", image: "/Mima-Gardens-Photos/highlights/_SJS0339.jpg" },
     ]
   },
   {
