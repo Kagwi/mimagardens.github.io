@@ -7,12 +7,12 @@ import 'swiper/css/navigation';
 import { ChevronDownIcon } from 'lucide-react';
 
 const heroImages = [
-  'https://github.com/Kagwi/mimagardens.github.io/blob/main/public/Mima-Gardens-Photos/highlights/_SJS0652.jpg',
-  'https://github.com/Kagwi/mimagardens.github.io/blob/main/public/Mima-Gardens-Photos/highlights/_SJS0673.jpg',
-  'https://github.com/Kagwi/mimagardens.github.io/blob/main/public/Mima-Gardens-Photos/highlights/_SJS0484.jpg',
-  'https://github.com/Kagwi/mimagardens.github.io/blob/main/public/Mima-Gardens-Photos/highlights/_SJS0474.jpg',
-  'https://github.com/Kagwi/mimagardens.github.io/blob/main/public/Mima-Gardens-Photos/highlights/_SJS0718.jpg',
-  'https://github.com/Kagwi/mimagardens.github.io/blob/main/public/Mima-Gardens-Photos/highlights/_SJS0703.jpg',
+  '/Mima-Gardens-Photos/highlights/_SJS0652.jpg',
+  '/Mima-Gardens-Photos/highlights/_SJS0673.jpg',
+  '/Mima-Gardens-Photos/highlights/_SJS0484.jpg',
+  '/Mima-Gardens-Photos/highlights/_SJS0474.jpg',
+  '/Mima-Gardens-Photos/highlights/_SJS0718.jpg',
+  '/Mima-Gardens-Photos/highlights/_SJS0703.jpg',
 ];
 
 const HeroSection = () => {
