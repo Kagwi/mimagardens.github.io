@@ -80,9 +80,21 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="mt-8 pt-8 border-t border-gray-700 text-center">
+        {/* Footer Bottom Section */}
+        <div className="mt-8 pt-8 border-t border-gray-700 text-center space-y-2">
           <p className="text-gray-400">
             © {new Date().getFullYear()} Mima Gardens. All rights reserved.
+          </p>
+          <p className="text-gray-500 text-sm">
+            Created and Designed by{' '}
+            <a
+              href="https://www.neonsolcreatives.com"
+              className="text-emerald-400 hover:text-emerald-500 underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Neonsol Creatives
+            </a>.
           </p>
         </div>
       </div>
